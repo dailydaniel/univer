@@ -1,0 +1,236 @@
+;First;Second;Third;TR_1;TR_2;TR_3;DELTA;Translate
+0;abide;abode;abode;['AH0', 'B', 'AY1', 'D'];['AH0', 'B', 'OW1', 'D'];['AH0', 'B', 'OW1', 'D'];(['AY1', 'D'], ['OW1', 'D'], ['OW1', 'D']);пребывать
+1;arise;arose;arisen;['ER0', 'AY1', 'Z'];['ER0', 'OW1', 'Z'];['ER0', 'IH1', 'Z', 'AH0', 'N'];(['AY1', 'Z'], ['OW1', 'Z'], ['IH1', 'Z', 'AH0', 'N']);подняться
+2;be;was;been;['B', 'IY1'];['W', 'AA1', 'Z'];['B', 'IH1', 'N'];(['B', 'IY1'], ['W', 'AA1', 'Z'], ['B', 'IH1', 'N']);быть
+3;bear;bore;born;['B', 'EH1', 'R'];['B', 'AO1', 'R'];['B', 'AO1', 'R', 'N'];(['EH1', 'R'], ['AO1', 'R'], ['AO1', 'R', 'N']);родить
+4;beat;beat;beaten;['B', 'IY1', 'T'];['B', 'IY1', 'T'];['B', 'IY1', 'T', 'AH0', 'N'];([], [], ['AH0', 'N']);бить
+5;become;became;become;['B', 'IH0', 'K', 'AH1', 'M'];['B', 'IH0', 'K', 'EY1', 'M'];['B', 'IH0', 'K', 'AH1', 'M'];(['AH1', 'M'], ['EY1', 'M'], ['AH1', 'M']);стать
+6;befall;befell;befallen;['B', 'IH0', 'F', 'AO1', 'L'];['B', 'IH0', 'F', 'EH1', 'L'];['B', 'AH0', 'F', 'AA1', 'L', 'AH0', 'N'];(['AO1', 'L'], ['EH1', 'L'], ['AH0', 'AA1', 'L', 'AH0', 'N']);случиться
+7;beget;begot;begotten;['B', 'IH0', 'G', 'EH1', 'T'];['B', 'IY0', 'G', 'AO1', 'T'];['B', 'IY0', 'G', 'AO1', 'T', 'IH0', 'N'];(['IH0', 'G', 'EH1', 'T'], ['IY0', 'G', 'AO1', 'T'], ['IY0', 'G', 'AO1', 'T', 'IH0', 'N']);порождать
+8;begin;began;begun;['B', 'IH0', 'G', 'IH1', 'N'];['B', 'IH0', 'G', 'AE1', 'N'];['B', 'IH0', 'G', 'AH1', 'N'];(['IH1', 'N'], ['AE1', 'N'], ['AH1', 'N']);начать
+9;bend;bent;bent;['B', 'EH1', 'N', 'D'];['B', 'EH1', 'N', 'T'];['B', 'EH1', 'N', 'T'];(['D'], ['T'], ['T']);согнуть(ся)
+10;bereave;bereft;bereft;['B', 'ER0', 'IY1', 'V'];['B', 'ER0', 'EH1', 'F', 'T'];['B', 'ER0', 'EH1', 'F', 'T'];(['IY1', 'V'], ['EH1', 'F', 'T'], ['EH1', 'F', 'T']);лишать
+11;beset;beset;beset;['B', 'IH0', 'S', 'EH1', 'T'];['B', 'IH0', 'S', 'EH1', 'T'];['B', 'IH0', 'S', 'EH1', 'T'];([], [], []);осаждать
+12;bet;bet;bet;['B', 'EH1', 'T'];['B', 'EH1', 'T'];['B', 'EH1', 'T'];([], [], []);держать пари
+13;bid;bad;bid;['B', 'IH1', 'D'];['B', 'AE1', 'D'];['B', 'IH1', 'D'];(['IH1', 'D'], ['AE1', 'D'], ['IH1', 'D']);велеть
+14;bind;bound;bound;['B', 'AY1', 'N', 'D'];['B', 'AW1', 'N', 'D'];['B', 'AW1', 'N', 'D'];(['AY1', 'N', 'D'], ['AW1', 'N', 'D'], ['AW1', 'N', 'D']);связать
+15;bite;bit;bit;['B', 'AY1', 'T'];['B', 'IH1', 'T'];['B', 'IH1', 'T'];(['AY1', 'T'], ['IH1', 'T'], ['IH1', 'T']);кусать
+16;bleed;bled;bled;['B', 'L', 'IY1', 'D'];['B', 'L', 'EH1', 'D'];['B', 'L', 'EH1', 'D'];(['IY1', 'D'], ['EH1', 'D'], ['EH1', 'D']);кровоточить
+17;bless;blessed;blessed;['B', 'L', 'EH1', 'S'];['B', 'L', 'EH1', 'S', 'T'];['B', 'L', 'EH1', 'S', 'T'];([], ['T'], ['T']);благословлять
+18;blow;blew;blown;['B', 'L', 'OW1'];['B', 'L', 'UW1'];['B', 'L', 'OW1', 'N'];(['OW1'], ['UW1'], ['OW1', 'N']);дуть
+19;break;broke;broken;['B', 'R', 'EY1', 'K'];['B', 'R', 'OW1', 'K'];['B', 'R', 'OW1', 'K', 'AH0', 'N'];(['EY1', 'K'], ['OW1', 'K'], ['OW1', 'K', 'AH0', 'N']);(с)ломать
+20;breed;bred;bred;['B', 'R', 'IY1', 'D'];['B', 'R', 'EH1', 'D'];['B', 'R', 'EH1', 'D'];(['IY1', 'D'], ['EH1', 'D'], ['EH1', 'D']);выращивать
+21;bring;brought;brought;['B', 'R', 'IH1', 'NG'];['B', 'R', 'AO1', 'T'];['B', 'R', 'AO1', 'T'];(['IH1', 'NG'], ['AO1', 'T'], ['AO1', 'T']);принести
+22;broadcast;broadcast;broadcast;['B', 'R', 'AO1', 'D', 'K', 'AE2', 'S', 'T'];['B', 'R', 'AO1', 'D', 'K', 'AE2', 'S', 'T'];['B', 'R', 'AO1', 'D', 'K', 'AE2', 'S', 'T'];([], [], []);распространять
+23;build;built;built;['B', 'IH1', 'L', 'D'];['B', 'IH1', 'L', 'T'];['B', 'IH1', 'L', 'T'];(['D'], ['T'], ['T']);строить
+24;burn;burnt;burnt;['B', 'ER1', 'N'];['B', 'ER1', 'N', 'T'];['B', 'ER1', 'N', 'T'];([], ['T'], ['T']);жечь
+25;burst;burst;burst;['B', 'ER1', 'S', 'T'];['B', 'ER1', 'S', 'T'];['B', 'ER1', 'S', 'T'];([], [], []);разразиться
+26;bust;bust;bust;['B', 'AH1', 'S', 'T'];['B', 'AH1', 'S', 'T'];['B', 'AH1', 'S', 'T'];([], [], []);разжаловать
+27;buy;bought;bought;['B', 'AY1'];['B', 'AA1', 'T'];['B', 'AA1', 'T'];(['AY1'], ['AA1', 'T'], ['AA1', 'T']);купить
+28;cast;cast;cast;['K', 'AE1', 'S', 'T'];['K', 'AE1', 'S', 'T'];['K', 'AE1', 'S', 'T'];([], [], []);кинуть
+29;catch;caught;caught;['K', 'AE1', 'CH'];['K', 'AA1', 'T'];['K', 'AA1', 'T'];(['AE1', 'CH'], ['AA1', 'T'], ['AA1', 'T']);ловить
+30;choose;chose;chosen;['CH', 'UW1', 'Z'];['CH', 'OW1', 'Z'];['CH', 'OW1', 'Z', 'AH0', 'N'];(['UW1', 'Z'], ['OW1', 'Z'], ['OW1', 'Z', 'AH0', 'N']);выбрать
+31;cling;clung;clung;['K', 'L', 'IH1', 'NG'];['K', 'L', 'AH1', 'NG'];['K', 'L', 'AH1', 'NG'];(['IH1', 'NG'], ['AH1', 'NG'], ['AH1', 'NG']);цепляться
+32;come;came;come;['K', 'AH1', 'M'];['K', 'EY1', 'M'];['K', 'AH1', 'M'];(['AH1', 'M'], ['EY1', 'M'], ['AH1', 'M']);прийти
+33;cost;cost;cost;['K', 'AA1', 'S', 'T'];['K', 'AA1', 'S', 'T'];['K', 'AA1', 'S', 'T'];([], [], []);стоить
+34;creep;crept;crept;['K', 'R', 'IY1', 'P'];['K', 'R', 'EH1', 'P', 'T'];['K', 'R', 'EH1', 'P', 'T'];(['IY1', 'P'], ['EH1', 'P', 'T'], ['EH1', 'P', 'T']);ползти
+35;crow;crowed;crowed;['K', 'R', 'OW1'];['K', 'R', 'OW1', 'D'];['K', 'R', 'OW1', 'D'];([], ['D'], ['D']);петь (о петухе)
+36;cut;cut;cut;['K', 'AH1', 'T'];['K', 'AH1', 'T'];['K', 'AH1', 'T'];([], [], []);резать
+37;dare;durst;dared;['D', 'EH1', 'R'];['D', 'ER1', 'S', 'T'];['D', 'EH1', 'R', 'D'];(['EH1', 'R'], ['ER1', 'S', 'T'], ['EH1', 'R', 'D']);сметь
+38;deal;dealt;dealt;['D', 'IY1', 'L'];['D', 'EH1', 'L', 'T'];['D', 'EH1', 'L', 'T'];(['IY1', 'L'], ['EH1', 'L', 'T'], ['EH1', 'L', 'T']);иметь дело
+39;dig;dug;dug;['D', 'IH1', 'G'];['D', 'AH1', 'G'];['D', 'AH1', 'G'];(['IH1', 'G'], ['AH1', 'G'], ['AH1', 'G']);копать
+40;dive;dived;dived;['D', 'AY1', 'V'];['D', 'AY1', 'V', 'D'];['D', 'AY1', 'V', 'D'];([], ['D'], ['D', 'AY1', 'V', 'D']);нырять
+41;do;did;done;['D', 'UW1'];['D', 'IH1', 'D'];['D', 'AH1', 'N'];(['UW1'], ['IH1', 'D'], ['AH1', 'N']);делать
+42;draw;drew;drawn;['D', 'R', 'AO1'];['D', 'R', 'UW1'];['D', 'R', 'AO1', 'N'];(['AO1'], ['UW1'], ['AO1', 'N']);тащить
+43;dream;dreamt;dreamt;['D', 'R', 'IY1', 'M'];['D', 'R', 'EH1', 'M', 'T'];['D', 'R', 'EH1', 'M', 'T'];(['IY1', 'M'], ['EH1', 'M', 'T'], ['EH1', 'M', 'T']);грезить
+44;drink;drank;drunk;['D', 'R', 'IH1', 'NG', 'K'];['D', 'R', 'AE1', 'NG', 'K'];['D', 'R', 'AH1', 'NG', 'K'];(['IH1', 'NG', 'K'], ['AE1', 'NG', 'K'], ['AH1', 'NG', 'K']);пить
+45;drive;drove;driven;['D', 'R', 'AY1', 'V'];['D', 'R', 'OW1', 'V'];['D', 'R', 'IH1', 'V', 'AH0', 'N'];(['AY1', 'V'], ['OW1', 'V'], ['IH1', 'V', 'AH0', 'N']);гнать
+46;dwell;dwelt;dwelt;['D', 'W', 'EH1', 'L'];['D', 'W', 'EH1', 'L', 'T'];['D', 'W', 'EH1', 'L', 'T'];([], ['T'], ['T']);обитать
+47;eat;ate;eaten;['IY1', 'T'];['EY1', 'T'];['IY1', 'T', 'AH0', 'N'];(['IY1', 'T'], ['EY1', 'T'], ['IY1', 'T', 'AH0', 'N']);кушать
+48;fall;fell;fallen;['F', 'AO1', 'L'];['F', 'EH1', 'L'];['F', 'AA1', 'L', 'AH0', 'N'];(['AO1', 'L'], ['EH1', 'L'], ['AA1', 'L', 'AH0', 'N']);падать
+49;feed;fed;fed;['F', 'IY1', 'D'];['F', 'EH1', 'D'];['F', 'EH1', 'D'];(['IY1', 'D'], ['EH1', 'D'], ['EH1', 'D']);кормить
+50;feel;felt;felt;['F', 'IY1', 'L'];['F', 'EH1', 'L', 'T'];['F', 'EH1', 'L', 'T'];(['IY1', 'L'], ['EH1', 'L', 'T'], ['EH1', 'L', 'T']);чувствовать
+51;fight;fought;fought;['F', 'AY1', 'T'];['F', 'AO1', 'T'];['F', 'AO1', 'T'];(['AY1', 'T'], ['AO1', 'T'], ['AO1', 'T']);сражаться
+52;find;found;found;['F', 'AY1', 'N', 'D'];['F', 'AW1', 'N', 'D'];['F', 'AW1', 'N', 'D'];(['AY1', 'N', 'D'], ['AW1', 'N', 'D'], ['AW1', 'N', 'D']);находить
+53;flee;fled;fled;['F', 'L', 'IY1'];['F', 'L', 'EH1', 'D'];['F', 'L', 'EH1', 'D'];(['IY1'], ['EH1', 'D'], ['EH1', 'D']);бежать
+54;fling;flung;flung;['F', 'L', 'IH1', 'NG'];['F', 'L', 'AH1', 'NG'];['F', 'L', 'AH1', 'NG'];(['IH1', 'NG'], ['AH1', 'NG'], ['AH1', 'NG']);бросить
+55;fly;flew;flown;['F', 'L', 'AY1'];['F', 'L', 'UW1'];['F', 'L', 'OW1', 'N'];(['AY1'], ['UW1'], ['OW1', 'N']);летать
+56;forbid;forbad;forbidden;['F', 'ER0', 'B', 'IH1', 'D'];['F', 'ER0', 'B', 'AE1', 'D'];['F', 'AO1', 'R', 'B', 'IH0', 'D', 'AH0', 'N'];(['IH1', 'D'], ['AE1', 'D'], ['AO1', 'R', 'B', 'IH0', 'D', 'AH0', 'N']);запретить
+57;forecast;forecast;forecast;['F', 'AO1', 'R', 'K', 'AE2', 'S', 'T'];['F', 'AO1', 'R', 'K', 'AE2', 'S', 'T'];['F', 'AO1', 'R', 'K', 'AE2', 'S', 'T'];([], [], []);предсказывать
+58;foresee;foresaw;foreseen;['F', 'AO0', 'R', 'S', 'IY1'];['F', 'AO2', 'R', 'S', 'AO1'];['F', 'AO2', 'R', 'S', 'IY1', 'N'];(['AO0', 'R', 'S', 'IY1'], ['AO2', 'R', 'S', 'AO1'], ['AO2', 'R', 'S', 'IY1', 'N']);предвидеть
+59;foretell;foretold;foretold;['F', 'AO0', 'R', 'T', 'EH1', 'L'];['F', 'AO0', 'R', 'T', 'OW1', 'L', 'D'];['F', 'AO0', 'R', 'T', 'OW1', 'L', 'D'];(['EH1', 'L'], ['OW1', 'L', 'D'], ['OW1', 'L', 'D']);предсказывать
+60;forget;forgot;forgotten;['F', 'ER0', 'G', 'EH1', 'T'];['F', 'ER0', 'G', 'AA1', 'T'];['F', 'ER0', 'G', 'AA1', 'T', 'AH0', 'N'];(['EH1', 'T'], ['AA1', 'T'], ['AA1', 'T', 'AH0', 'N']);забыть
+61;forgive;forgave;forgiven;['F', 'ER0', 'G', 'IH1', 'V'];['F', 'ER0', 'G', 'EY1', 'V'];['F', 'ER0', 'G', 'IH1', 'V', 'AH0', 'N'];(['IH1', 'V'], ['EY1', 'V'], ['IH1', 'V', 'AH0', 'N']);простить
+62;forsake;forsook;forsaken;['F', 'AO0', 'R', 'S', 'EY1', 'K'];['F', 'AO0', 'R', 'S', 'UH1', 'K'];['F', 'AO0', 'R', 'S', 'EY1', 'K', 'AH0', 'N'];(['EY1', 'K'], ['UH1', 'K'], ['EY1', 'K', 'AH0', 'N']);покидать
+63;freeze;froze;frozen;['F', 'R', 'IY1', 'Z'];['F', 'R', 'OW1', 'Z'];['F', 'R', 'OW1', 'Z', 'AH0', 'N'];(['IY1', 'Z'], ['OW1', 'Z'], ['OW1', 'Z', 'AH0', 'N']);замерзнуть
+64;get;got;got;['G', 'EH1', 'T'];['G', 'AA1', 'T'];['G', 'AA1', 'T'];(['EH1', 'T'], ['AA1', 'T'], ['AA1', 'T']);получить
+65;gild;gilt;gilt;['G', 'IH1', 'L', 'D'];['G', 'IH1', 'L', 'T'];['G', 'IH1', 'L', 'T'];(['D'], ['T'], ['T']);позолотить
+66;give;gave;given;['G', 'IH1', 'V'];['G', 'EY1', 'V'];['G', 'IH1', 'V', 'AH0', 'N'];(['IH1', 'V'], ['EY1', 'V'], ['IH1', 'V', 'AH0', 'N']);дать
+67;go;went;gone;['G', 'OW1'];['W', 'EH1', 'N', 'T'];['G', 'AO1', 'N'];(['G', 'OW1'], ['W', 'EH1', 'N', 'T'], ['G', 'AO1', 'N']);идти
+68;grind;ground;ground;['G', 'R', 'AY1', 'N', 'D'];['G', 'R', 'AW1', 'N', 'D'];['G', 'R', 'AW1', 'N', 'D'];(['AY1', 'N', 'D'], ['AW1', 'N', 'D'], ['AW1', 'N', 'D']);точить
+69;grow;grew;grown;['G', 'R', 'OW1'];['G', 'R', 'UW1'];['G', 'R', 'OW1', 'N'];(['OW1'], ['UW1'], ['OW1', 'N']);расти
+70;hang;hung;hung;['HH', 'AE1', 'NG'];['HH', 'AH1', 'NG'];['HH', 'AH1', 'NG'];(['AE1', 'NG'], ['AH1', 'NG'], ['AH1', 'NG']);висеть
+71;have;had;had;['HH', 'AE1', 'V'];['HH', 'AE1', 'D'];['HH', 'AE1', 'D'];(['V'], ['D'], ['D']);иметь
+72;hear;heard;heard;['HH', 'IY1', 'R'];['HH', 'ER1', 'D'];['HH', 'ER1', 'D'];(['IY1', 'R'], ['ER1', 'D'], ['ER1', 'D']);слушать
+73;heave;heaved;heaved;['HH', 'IY1', 'V'];['HH', 'IY1', 'V', 'D'];['HH', 'IY1', 'V', 'D'];([], ['D'], ['D']);подымать(ся)
+74;hide;hid;hidden;['HH', 'AY1', 'D'];['HH', 'IH1', 'D'];['HH', 'IH1', 'D', 'AH0', 'N'];(['AY1', 'D'], ['IH1', 'D'], ['IH1', 'D', 'AH0', 'N']);прятать(ся)
+75;hit;hit;hit;['HH', 'IH1', 'T'];['HH', 'IH1', 'T'];['HH', 'IH1', 'T'];([], [], []);ударить
+76;hold;held;held;['HH', 'OW1', 'L', 'D'];['HH', 'EH1', 'L', 'D'];['HH', 'EH1', 'L', 'D'];(['OW1', 'L', 'D'], ['EH1', 'L', 'D'], ['EH1', 'L', 'D']);держать
+77;hurt;hurt;hurt;['HH', 'ER1', 'T'];['HH', 'ER1', 'T'];['HH', 'ER1', 'T'];([], [], []);причинить боль
+78;inlay;inlaid;inlaid;['IH1', 'N', 'L', 'EY2'];['IH1', 'N', 'L', 'EY2', 'D'];['IH1', 'N', 'L', 'EY2', 'D'];([], ['D'], ['D']);вкладывать
+79;input;input;input;['IH1', 'N', 'P', 'UH2', 'T'];['IH1', 'N', 'P', 'UH2', 'T'];['IH1', 'N', 'P', 'UH2', 'T'];([], [], []);входить
+80;inset;inset;inset;['IH1', 'N', 'S', 'EH2', 'T'];['IH1', 'N', 'S', 'EH2', 'T'];['IH1', 'N', 'S', 'EH2', 'T'];([], [], []);вставлять
+81;keep;kept;kept;['K', 'IY1', 'P'];['K', 'EH1', 'P', 'T'];['K', 'EH1', 'P', 'T'];(['IY1', 'P'], ['EH1', 'P', 'T'], ['EH1', 'P', 'T']);хранить
+82;kneel;knelt;knelt;['N', 'IY1', 'L'];['N', 'EH1', 'L', 'T'];['N', 'EH1', 'L', 'T'];(['IY1', 'L'], ['EH1', 'L', 'T'], ['EH1', 'L', 'T']);становиться на колени
+83;knit;knit;knit;['N', 'IH1', 'T'];['N', 'IH1', 'T'];['N', 'IH1', 'T'];([], [], []);вязать
+84;know;knew;known;['N', 'OW1'];['N', 'UW1'];['N', 'OW1', 'N'];(['OW1'], ['UW1'], ['OW1', 'N']);знать
+85;lay;laid;laid;['L', 'EY1'];['L', 'EY1', 'D'];['L', 'EY1', 'D'];([], ['D'], ['D']);класть
+86;lead;led;led;['L', 'EH1', 'D'];['L', 'EH1', 'D'];['L', 'EH1', 'D'];([], [], []);вести
+87;lean;leant;leant;['L', 'IY1', 'N'];['L', 'IY1', 'AH0', 'N', 'T'];['L', 'IY1', 'AH0', 'N', 'T'];([], ['AH0', 'N', 'T'], ['AH0', 'N', 'T']);опереться
+88;leap;leapt;leapt;['L', 'IY1', 'P'];['L', 'EH1', 'P', 'T'];['L', 'EH1', 'P', 'T'];(['IY1', 'P'], ['EH1', 'P', 'T'], ['EH1', 'P', 'T']);прыгать
+89;learn;learnt;learnt;['L', 'ER1', 'N'];['L', 'ER1', 'N', 'T'];['L', 'ER1', 'N', 'T'];([], ['T'], ['T']);учить
+90;leave;left;left;['L', 'IY1', 'V'];['L', 'EH1', 'F', 'T'];['L', 'EH1', 'F', 'T'];(['IY1', 'V'], ['EH1', 'F', 'T'], ['EH1', 'F', 'T']);оставить
+91;lend;lent;lent;['L', 'EH1', 'N', 'D'];['L', 'EH1', 'N', 'T'];['L', 'EH1', 'N', 'T'];(['D'], ['T'], ['T']);одолжить
+92;let;let;let;['L', 'EH1', 'T'];['L', 'EH1', 'T'];['L', 'EH1', 'T'];([], [], []);пустить
+93;lie;lay;lain;['L', 'AY1'];['L', 'EY1'];['L', 'EY1', 'N'];(['AY1'], ['EY1'], ['EY1', 'N']);лежать
+94;light;lit;lit;['L', 'AY1', 'T'];['L', 'IH1', 'T'];['L', 'IH1', 'T'];(['AY1', 'T'], ['IH1', 'T'], ['IH1', 'T']);осветить
+95;lose;lost;lost;['L', 'UW1', 'Z'];['L', 'AO1', 'S', 'T'];['L', 'AO1', 'S', 'T'];(['UW1', 'Z'], ['AO1', 'S', 'T'], ['AO1', 'S', 'T']);терять
+96;make;made;made;['M', 'EY1', 'K'];['M', 'EY1', 'D'];['M', 'EY1', 'D'];(['K'], ['D'], ['D']);делать
+97;may;might;might;['M', 'EY1'];['M', 'AY1', 'T'];['M', 'AY1', 'T'];(['EY1'], ['AY1', 'T'], ['AY1', 'T']);мочь
+98;mean;meant;meant;['M', 'IY1', 'N'];['M', 'EH1', 'N', 'T'];['M', 'EH1', 'N', 'T'];(['IY1', 'N'], ['EH1', 'N', 'T'], ['EH1', 'N', 'T']);подразумевать
+99;meet;met;met;['M', 'IY1', 'T'];['M', 'EH1', 'T'];['M', 'EH1', 'T'];(['IY1', 'T'], ['EH1', 'T'], ['EH1', 'T']);встретить
+100;miscast;miscast;miscast;['M', 'IH0', 'S', 'K', 'AE1', 'S', 'T'];['M', 'IH0', 'S', 'K', 'AE1', 'S', 'T'];['M', 'IH0', 'S', 'K', 'AE1', 'S', 'T'];([], [], []);неправильно распределять роли
+101;mishear;misheard;misheard;['M', 'IH0', 'S', 'HH', 'IY1', 'R'];['M', 'IH2', 'S', 'HH', 'ER1', 'D'];['M', 'IH2', 'S', 'HH', 'ER1', 'D'];(['IH0', 'S', 'HH', 'IY1', 'R'], ['IH2', 'S', 'HH', 'ER1', 'D'], ['IH2', 'S', 'HH', 'ER1', 'D']);ослышаться
+102;mislead;misled;misled;['M', 'IH0', 'S', 'L', 'IY1', 'D'];['M', 'IH0', 'S', 'L', 'EH1', 'D'];['M', 'IH0', 'S', 'L', 'EH1', 'D'];(['IY1', 'D'], ['EH1', 'D'], ['EH1', 'D']);ввести в заблуждение
+103;misread;misread;misread;['M', 'IH0', 'S', 'R', 'IY1', 'D'];['M', 'IH0', 'S', 'R', 'IY1', 'D'];['M', 'IH0', 'S', 'R', 'IY1', 'D'];([], [], []);неправильно истолковывать
+104;misspend;misspent;misspent;['M', 'IH0', 'S', 'S', 'P', 'EH1', 'N', 'D'];['M', 'IH0', 'S', 'S', 'P', 'EH1', 'N', 'T'];['M', 'IH0', 'S', 'S', 'P', 'EH1', 'N', 'T'];(['D'], ['T'], ['T']);экономить
+105;mistake;mistook;mistaken;['M', 'IH0', 'S', 'T', 'EY1', 'K'];['M', 'IH0', 'S', 'T', 'UH1', 'K'];['M', 'IH0', 'S', 'T', 'EY1', 'K', 'AH0', 'N'];(['EY1', 'K'], ['UH1', 'K'], ['EY1', 'K', 'AH0', 'N']);неправильно понимать
+106;misunderstand;misunderstood;misunderstood;['M', 'IH2', 'S', 'AH0', 'N', 'D', 'ER0', 'S', 'T', 'AE1', 'N', 'D'];['M', 'IH2', 'S', 'AH0', 'N', 'D', 'ER0', 'S', 'T', 'UH1', 'D'];['M', 'IH2', 'S', 'AH0', 'N', 'D', 'ER0', 'S', 'T', 'UH1', 'D'];(['AE1', 'N', 'D'], ['UH1', 'D'], ['UH1', 'D']);неправильно понимать
+107;outbid;outbid;outbid;['AW1', 'T', 'B', 'IH2', 'D'];['AW1', 'T', 'B', 'IH2', 'D'];['AW1', 'T', 'B', 'IH2', 'D'];([], [], []);перебивать цену
+108;outdo;outdid;outdone;['AW2', 'T', 'D', 'UW1'];['AW1', 'T', 'D', 'IH2', 'D'];['AW1', 'T', 'D', 'AH1', 'N'];(['AW2', 'T', 'D', 'UW1'], ['AW1', 'T', 'D', 'IH2', 'D'], ['AW1', 'T', 'D', 'AH1', 'N']);превосходить
+109;outgrow;outgrew;outgrown;['AW2', 'T', 'G', 'R', 'OW1'];['AW2', 'T', 'G', 'R', 'UW1'];['AW2', 'T', 'G', 'R', 'OW1', 'N'];(['OW1'], ['UW1'], ['OW1', 'N']);вырастать из
+110;output;output;output;['AW1', 'T', 'P', 'UH2', 'T'];['AW1', 'T', 'P', 'UH2', 'T'];['AW1', 'T', 'P', 'UH2', 'T'];([], [], []);выходить
+111;outrun;outran;outrun;['AW0', 'T', 'R', 'AH1', 'N'];['AW0', 'T', 'R', 'AE1', 'N'];['AW0', 'T', 'R', 'AH1', 'N'];(['AH1', 'N'], ['AE1', 'N'], ['AH1', 'N']);перегонять
+112;outsell;outsold;outsold;['AW0', 'T', 'S', 'EH1', 'L'];['AW0', 'T', 'S', 'OW1', 'L', 'D'];['AW0', 'T', 'S', 'OW1', 'L', 'D'];(['EH1', 'L'], ['OW1', 'L', 'D'], ['OW1', 'L', 'D']);продавать лучше или дороже
+113;outshine;outshone;outshone;['AW1', 'CH', 'AY2', 'N'];['AW0', 'T', 'SH', 'OW1', 'N'];['AW0', 'T', 'SH', 'OW1', 'N'];(['AW1', 'CH', 'AY2', 'N'], ['AW0', 'T', 'SH', 'OW1', 'N'], ['AW0', 'T', 'SH', 'OW1', 'N']);затмевать
+114;overcome;overcame;overcome;['OW1', 'V', 'ER0', 'K', 'AH2', 'M'];['OW1', 'V', 'ER0', 'K', 'EY1', 'M'];['OW1', 'V', 'ER0', 'K', 'AH2', 'M'];(['AH2', 'M'], ['EY1', 'M'], ['AH2', 'M']);компенсировать
+115;overdo;overdid;overdone;['OW1', 'V', 'ER0', 'D', 'UW1'];['OW1', 'V', 'ER0', 'D', 'IH2', 'D'];['OW1', 'V', 'ER0', 'D', 'AH1', 'N'];(['UW1'], ['IH2', 'D'], ['AH1', 'N']);пережари(ва)ть
+116;overdraw;overdrew;overdrawn;['OW1', 'V', 'ER0', 'D', 'R', 'AO2'];['OW1', 'V', 'ER0', 'D', 'R', 'UW2'];['OW1', 'V', 'ER0', 'D', 'R', 'AO1', 'N'];(['AO2'], ['UW2'], ['AO1', 'N']);превышать
+117;overhang;overhung;overhung;['OW1', 'V', 'ER0', 'HH', 'AE2', 'NG'];['OW0', 'V', 'ER0', 'HH', 'AH1', 'NG'];['OW0', 'V', 'ER0', 'HH', 'AH1', 'NG'];(['OW1', 'V', 'ER0', 'HH', 'AE2', 'NG'], ['OW0', 'V', 'ER0', 'HH', 'AH1', 'NG'], ['OW0', 'V', 'ER0', 'HH', 'AH1', 'NG']);нависать
+118;overhear;overheard;overheard;['OW1', 'V', 'ER0', 'HH', 'IY1', 'R'];['OW1', 'V', 'ER0', 'HH', 'ER1', 'D'];['OW1', 'V', 'ER0', 'HH', 'ER1', 'D'];(['IY1', 'R'], ['ER1', 'D'], ['ER1', 'D']);подслуш(ив)ать
+119;overlay;overlaid;overlaid;['OW1', 'V', 'ER0', 'L', 'EY2'];['OW1', 'V', 'ER0', 'L', 'EY2', 'D'];['OW1', 'V', 'ER0', 'L', 'EY2', 'D'];([], ['D'], ['D']);покры(ва)ть
+120;overpay;overpaid;overpaid;['OW1', 'V', 'ER0', 'P', 'EY2'];['OW1', 'V', 'ER0', 'P', 'EY1', 'D'];['OW1', 'V', 'ER0', 'P', 'EY1', 'D'];(['EY2'], ['EY1', 'D'], ['EY1', 'D']);переплачивать
+121;override;overrode;overridden;['OW1', 'V', 'ER0', 'R', 'AY2', 'D'];['OW1', 'V', 'ER0', 'R', 'OW1', 'D'];['OW1', 'V', 'ER0', 'R', 'IH1', 'D', 'AH0', 'N'];(['AY2', 'D'], ['OW1', 'D'], ['IH1', 'D', 'AH0', 'N']);отвергать
+122;overrun;overran;overrun;['OW1', 'V', 'ER0', 'R', 'AH2', 'N'];['OW1', 'V', 'ER0', 'R', 'AE1', 'N'];['OW1', 'V', 'ER0', 'R', 'AH2', 'N'];(['AH2', 'N'], ['AE1', 'N'], ['AH2', 'N']);переливаться через край
+123;oversee;oversaw;overseen;['OW1', 'V', 'ER0', 'S', 'IY2'];['OW1', 'V', 'ER0', 'S', 'AO2'];['OW1', 'V', 'ER0', 'S', 'IY2', 'N'];(['IY2'], ['AO2'], ['IY2', 'N']);надзирать за
+124;overshoot;overshot;overshot;['OW1', 'V', 'ER0', 'SH', 'UW2', 'T'];['OW1', 'V', 'ER0', 'SH', 'AA2', 'T'];['OW1', 'V', 'ER0', 'SH', 'AA2', 'T'];(['UW2', 'T'], ['AA2', 'T'], ['AA2', 'T']);расстрелять
+125;oversleep;overslept;overslept;['OW2', 'V', 'ER0', 'S', 'L', 'IY1', 'P'];['OW2', 'V', 'ER0', 'S', 'L', 'EH1', 'P', 'T'];['OW2', 'V', 'ER0', 'S', 'L', 'EH1', 'P', 'T'];(['IY1', 'P'], ['EH1', 'P', 'T'], ['EH1', 'P', 'T']);прос(ы)пать
+126;overtake;overtook;overtaken;['OW1', 'V', 'ER0', 'T', 'EY2', 'K'];['OW2', 'V', 'ER0', 'T', 'UH1', 'K'];['OW1', 'V', 'ER0', 'T', 'EY2', 'K', 'AH0', 'N'];(['OW1', 'V', 'ER0', 'T', 'EY2', 'K'], ['OW2', 'V', 'ER0', 'T', 'UH1', 'K'], ['OW1', 'V', 'ER0', 'T', 'EY2', 'K', 'AH0', 'N']);догонять
+127;overthrow;overthrew;overthrown;['OW1', 'V', 'ER0', 'TH', 'R', 'OW2'];['OW2', 'V', 'ER0', 'TH', 'R', 'UW1'];['OW2', 'V', 'ER0', 'TH', 'R', 'OW1', 'N'];(['OW1', 'V', 'ER0', 'TH', 'R', 'OW2'], ['OW2', 'V', 'ER0', 'TH', 'R', 'UW1'], ['OW2', 'V', 'ER0', 'TH', 'R', 'OW1', 'N']);свергать
+128;pay;paid;paid;['P', 'EY1'];['P', 'EY1', 'D'];['P', 'EY1', 'D'];([], ['D'], ['D']);платить
+129;plead;pleaded;pleaded;['P', 'L', 'IY1', 'D'];['P', 'L', 'IY1', 'D', 'AH0', 'D'];['P', 'L', 'IY1', 'D', 'AH0', 'D'];([], ['AH0', 'D'], ['AH0', 'D']);обращаться к суду
+130;prepay;prepaid;prepaid;['P', 'R', 'IY0', 'P', 'EY1'];['P', 'R', 'IY0', 'P', 'EY1', 'D'];['P', 'R', 'IY0', 'P', 'EY1', 'D'];([], ['D'], ['D']);платить вперед
+131;prove;proved;proved;['P', 'R', 'UW1', 'V'];['P', 'R', 'UW1', 'V', 'D'];['P', 'R', 'UW1', 'V', 'D'];([], ['D'], ['D']);доказывать
+132;put;put;put;['P', 'UH1', 'T'];['P', 'UH1', 'T'];['P', 'UH1', 'T'];([], [], []);класть
+133;read;read;read;['R', 'EH1', 'D'];['R', 'EH1', 'D'];['R', 'EH1', 'D'];([], [], []);читать
+134;rebuild;rebuilt;rebuilt;['R', 'IY0', 'B', 'IH1', 'L', 'D'];['R', 'IY0', 'B', 'IH1', 'L', 'T'];['R', 'IY0', 'B', 'IH1', 'L', 'T'];(['D'], ['T'], ['T']);перестроить
+135;recast;recast;recast;['R', 'IY0', 'K', 'AE1', 'S', 'T'];['R', 'IY0', 'K', 'AE1', 'S', 'T'];['R', 'IY0', 'K', 'AE1', 'S', 'T'];([], [], []);видоизменять
+136;redo;redid;redone;['R', 'IY0', 'D', 'UW1'];['R', 'IY0', 'D', 'IH1', 'D'];['R', 'IY0', 'D', 'AH1', 'N'];(['UW1'], ['IH1', 'D'], ['AH1', 'N']);повторять сделанное
+137;remake;remade;remade;['R', 'IY1', 'M', 'EY1', 'K'];['R', 'IY0', 'M', 'EY1', 'D'];['R', 'IY0', 'M', 'EY1', 'D'];(['IY1', 'M', 'EY1', 'K'], ['IY0', 'M', 'EY1', 'D'], ['IY0', 'M', 'EY1', 'D']);переделывать
+138;repay;repaid;repaid;['R', 'IY0', 'P', 'EY1'];['R', 'IY0', 'P', 'EY1', 'D'];['R', 'IY0', 'P', 'EY1', 'D'];([], ['D'], ['D']);отдавать долг
+139;resell;resold;resold;['R', 'IY0', 'S', 'EH1', 'L'];['R', 'IY0', 'S', 'OW1', 'L', 'D'];['R', 'IY0', 'S', 'OW1', 'L', 'D'];(['EH1', 'L'], ['OW1', 'L', 'D'], ['OW1', 'L', 'D']);перепродавать
+140;reset;reset;reset;['R', 'IY0', 'S', 'EH1', 'T'];['R', 'IY0', 'S', 'EH1', 'T'];['R', 'IY0', 'S', 'EH1', 'T'];([], [], []);возвращать
+141;retake;retook;retaken;['R', 'IY1', 'T', 'EY1', 'K'];['R', 'IY0', 'T', 'UH1', 'K'];['R', 'IY0', 'T', 'EY1', 'K', 'AH0', 'N'];(['IY1', 'T', 'EY1', 'K'], ['IY0', 'T', 'UH1', 'K'], ['IY0', 'T', 'EY1', 'K', 'AH0', 'N']);забирать
+142;rewrite;rewrote;rewritten;['R', 'IY0', 'R', 'AY1', 'T'];['R', 'IY0', 'R', 'OW1', 'T'];['R', 'IY0', 'R', 'IH1', 'T', 'AH0', 'N'];(['AY1', 'T'], ['OW1', 'T'], ['IH1', 'T', 'AH0', 'N']);пере(за)писать
+143;rid;rid;rid;['R', 'IH1', 'D'];['R', 'IH1', 'D'];['R', 'IH1', 'D'];([], [], []);избавлять
+144;ride;rode;ridden;['R', 'AY1', 'D'];['R', 'OW1', 'D'];['R', 'IH1', 'D', 'AH0', 'N'];(['AY1', 'D'], ['OW1', 'D'], ['IH1', 'D', 'AH0', 'N']);ездить верхом
+145;ring;rang;rung;['R', 'IH1', 'NG'];['R', 'AE1', 'NG'];['R', 'AH1', 'NG'];(['IH1', 'NG'], ['AE1', 'NG'], ['AH1', 'NG']);звонить
+146;rise;rose;risen;['R', 'AY1', 'Z'];['R', 'OW1', 'Z'];['R', 'IH1', 'Z', 'AH0', 'N'];(['AY1', 'Z'], ['OW1', 'Z'], ['IH1', 'Z', 'AH0', 'N']);подняться
+147;run;ran;run;['R', 'AH1', 'N'];['R', 'AE1', 'N'];['R', 'AH1', 'N'];(['AH1', 'N'], ['AE1', 'N'], ['AH1', 'N']);бежать
+148;say;said;said;['S', 'EY1'];['S', 'EH1', 'D'];['S', 'EH1', 'D'];(['EY1'], ['EH1', 'D'], ['EH1', 'D']);говорить
+149;see;saw;seen;['S', 'IY1'];['S', 'AO1'];['S', 'IY1', 'N'];(['IY1'], ['AO1'], ['IY1', 'N']);видеть
+150;seek;sought;sought;['S', 'IY1', 'K'];['S', 'AO1', 'T'];['S', 'AO1', 'T'];(['IY1', 'K'], ['AO1', 'T'], ['AO1', 'T']);искать
+151;sell;sold;sold;['S', 'EH1', 'L'];['S', 'OW1', 'L', 'D'];['S', 'OW1', 'L', 'D'];(['EH1', 'L'], ['OW1', 'L', 'D'], ['OW1', 'L', 'D']);продавать
+152;send;sent;sent;['S', 'EH1', 'N', 'D'];['S', 'EH1', 'N', 'T'];['S', 'EH1', 'N', 'T'];(['D'], ['T'], ['T']);послать
+153;set;set;set;['S', 'EH1', 'T'];['S', 'EH1', 'T'];['S', 'EH1', 'T'];([], [], []);устанавливать
+154;sew;sewed;sewed;['S', 'OW1'];['S', 'OW1', 'D'];['S', 'OW1', 'D'];([], ['D'], ['D']);шить
+155;shake;shook;shaken;['SH', 'EY1', 'K'];['SH', 'UH1', 'K'];['SH', 'EY1', 'K', 'AH0', 'N'];(['EY1', 'K'], ['UH1', 'K'], ['EY1', 'K', 'AH0', 'N']);трясти
+156;shave;shaved;shaved;['SH', 'EY1', 'V'];['SH', 'EY1', 'V', 'D'];['SH', 'EY1', 'V', 'D'];([], ['D'], ['D']);брить(ся)
+157;shear;sheared;shorn;['SH', 'IH1', 'R'];['SH', 'IH1', 'R', 'D'];['SH', 'AO1', 'R', 'N'];([], ['D'], ['AO1', 'N']);стричь
+158;shed;shed;shed;['SH', 'EH1', 'D'];['SH', 'EH1', 'D'];['SH', 'EH1', 'D'];([], [], []);проливать
+159;shine;shone;shone;['SH', 'AY1', 'N'];['SH', 'OW1', 'N'];['SH', 'OW1', 'N'];(['AY1', 'N'], ['OW1', 'N'], ['OW1', 'N']);светить
+160;shoe;shod;shod;['SH', 'UW1'];['SH', 'AA1', 'D'];['SH', 'AA1', 'D'];(['UW1'], ['AA1', 'D'], ['AA1', 'D']);обувать
+161;shoot;shot;shot;['SH', 'UW1', 'T'];['SH', 'AA1', 'T'];['SH', 'AA1', 'T'];(['UW1', 'T'], ['AA1', 'T'], ['AA1', 'T']);стрелять
+162;show;showed;shown;['SH', 'OW1'];['SH', 'OW1', 'D'];['SH', 'OW1', 'N'];([], ['D'], ['N']);показывать
+163;shred;shred;shred;['SH', 'R', 'EH1', 'D'];['SH', 'R', 'EH1', 'D'];['SH', 'R', 'EH1', 'D'];([], [], []);кромсать
+164;shrink;shrank;shrunk;['SH', 'R', 'IH1', 'NG', 'K'];['SH', 'R', 'AE1', 'NG', 'K'];['SH', 'R', 'AH1', 'NG', 'K'];(['IH1', 'NG', 'K'], ['AE1', 'NG', 'K'], ['AH1', 'NG', 'K']);сокращаться
+165;shut;shut;shut;['SH', 'AH1', 'T'];['SH', 'AH1', 'T'];['SH', 'AH1', 'T'];([], [], []);закрывать
+166;sing;sang;sung;['S', 'IH1', 'NG'];['S', 'AE1', 'NG'];['S', 'AH1', 'NG'];(['IH1', 'NG'], ['AE1', 'NG'], ['AH1', 'NG']);петь
+167;sink;sank;sunk;['S', 'IH1', 'NG', 'K'];['S', 'AE1', 'NG', 'K'];['S', 'AH1', 'NG', 'K'];(['IH1', 'NG', 'K'], ['AE1', 'NG', 'K'], ['AH1', 'NG', 'K']);опускаться
+168;sit;sat;sat;['S', 'IH1', 'T'];['S', 'AE1', 'T'];['S', 'AE1', 'T'];(['IH1', 'T'], ['AE1', 'T'], ['AE1', 'T']);сидеть
+169;slay;slew;slain;['S', 'L', 'EY1'];['S', 'L', 'UW1'];['S', 'L', 'EY1', 'N'];(['EY1'], ['UW1'], ['EY1', 'N']);убивать
+170;sleep;slept;slept;['S', 'L', 'IY1', 'P'];['S', 'L', 'EH1', 'P', 'T'];['S', 'L', 'EH1', 'P', 'T'];(['IY1', 'P'], ['EH1', 'P', 'T'], ['EH1', 'P', 'T']);спать
+171;slide;slid;slid;['S', 'L', 'AY1', 'D'];['S', 'L', 'IH1', 'D'];['S', 'L', 'IH1', 'D'];(['AY1', 'D'], ['IH1', 'D'], ['IH1', 'D']);скользить
+172;sling;slung;slung;['S', 'L', 'IH1', 'NG'];['S', 'L', 'AH1', 'NG'];['S', 'L', 'AH1', 'NG'];(['IH1', 'NG'], ['AH1', 'NG'], ['AH1', 'NG']);швырять
+173;slit;slit;slit;['S', 'L', 'IH1', 'T'];['S', 'L', 'IH1', 'T'];['S', 'L', 'IH1', 'T'];([], [], []);раздирать(ся)
+174;smell;smelt;smelt;['S', 'M', 'EH1', 'L'];['S', 'M', 'EH1', 'L', 'T'];['S', 'M', 'EH1', 'L', 'T'];([], ['T'], ['T']);пахнуть
+175;sow;sowed;sowed;['S', 'AW1'];['S', 'AW1', 'D'];['S', 'AW1', 'D'];([], ['D'], ['D']);(по)сеять
+176;speak;spoke;spoken;['S', 'P', 'IY1', 'K'];['S', 'P', 'OW1', 'K'];['S', 'P', 'OW1', 'K', 'AH0', 'N'];(['IY1', 'K'], ['OW1', 'K'], ['OW1', 'K', 'AH0', 'N']);говорить
+177;speed;sped;sped;['S', 'P', 'IY1', 'D'];['S', 'P', 'EH1', 'D'];['S', 'P', 'EH1', 'D'];(['IY1', 'D'], ['EH1', 'D'], ['EH1', 'D']);ускорять
+178;spend;spent;spent;['S', 'P', 'EH1', 'N', 'D'];['S', 'P', 'EH1', 'N', 'T'];['S', 'P', 'EH1', 'N', 'T'];(['D'], ['T'], ['T']);тратить
+179;spill;spilt;spilt;['S', 'P', 'IH1', 'L'];['S', 'P', 'IH1', 'L', 'T'];['S', 'P', 'IH1', 'L', 'T'];([], ['T'], ['T']);пролить
+180;spin;spun;spun;['S', 'P', 'IH1', 'N'];['S', 'P', 'AH1', 'N'];['S', 'P', 'AH1', 'N'];(['IH1', 'N'], ['AH1', 'N'], ['AH1', 'N']);прясть
+181;spit;spat;spat;['S', 'P', 'IH1', 'T'];['S', 'P', 'AE1', 'T'];['S', 'P', 'AE1', 'T'];(['IH1', 'T'], ['AE1', 'T'], ['AE1', 'T']);плевать
+182;split;split;split;['S', 'P', 'L', 'IH1', 'T'];['S', 'P', 'L', 'IH1', 'T'];['S', 'P', 'L', 'IH1', 'T'];([], [], []);расщепить(ся)
+183;spread;spread;spread;['S', 'P', 'R', 'EH1', 'D'];['S', 'P', 'R', 'EH1', 'D'];['S', 'P', 'R', 'EH1', 'D'];([], [], []);распространиться
+184;spring;sprang;sprung;['S', 'P', 'R', 'IH1', 'NG'];['S', 'P', 'R', 'AE1', 'NG'];['S', 'P', 'R', 'AH1', 'NG'];(['IH1', 'NG'], ['AE1', 'NG'], ['AH1', 'NG']);вскочить
+185;stand;stood;stood;['S', 'T', 'AE1', 'N', 'D'];['S', 'T', 'UH1', 'D'];['S', 'T', 'UH1', 'D'];(['AE1', 'N', 'D'], ['UH1', 'D'], ['UH1', 'D']);стоять
+186;stave;staved;staved;['S', 'T', 'EY1', 'V'];['S', 'T', 'EY1', 'V', 'D'];['S', 'T', 'EY1', 'V', 'D'];([], ['D'], ['D']);проламывать
+187;steal;stole;stolen;['S', 'T', 'IY1', 'L'];['S', 'T', 'OW1', 'L'];['S', 'T', 'OW1', 'L', 'AH0', 'N'];(['IY1', 'L'], ['OW1', 'L'], ['OW1', 'L', 'AH0', 'N']);украсть
+188;stick;stuck;stuck;['S', 'T', 'IH1', 'K'];['S', 'T', 'AH1', 'K'];['S', 'T', 'AH1', 'K'];(['IH1', 'K'], ['AH1', 'K'], ['AH1', 'K']);уколоть
+189;sting;stung;stung;['S', 'T', 'IH1', 'NG'];['S', 'T', 'AH1', 'NG'];['S', 'T', 'AH1', 'NG'];(['IH1', 'NG'], ['AH1', 'NG'], ['AH1', 'NG']);ужалить
+190;stink;stank;stunk;['S', 'T', 'IH1', 'NG', 'K'];['S', 'T', 'AE1', 'NG', 'K'];['S', 'T', 'AH1', 'NG', 'K'];(['IH1', 'NG', 'K'], ['AE1', 'NG', 'K'], ['AH1', 'NG', 'K']);вонять
+191;strike;struck;struck;['S', 'T', 'R', 'AY1', 'K'];['S', 'T', 'R', 'AH1', 'K'];['S', 'T', 'R', 'AH1', 'K'];(['AY1', 'K'], ['AH1', 'K'], ['AH1', 'K']);ударить
+192;string;strung;strung;['S', 'T', 'R', 'IH1', 'NG'];['S', 'T', 'R', 'AH1', 'NG'];['S', 'T', 'R', 'AH1', 'NG'];(['IH1', 'NG'], ['AH1', 'NG'], ['AH1', 'NG']);нанизать
+193;strive;strove;striven;['S', 'T', 'R', 'AY1', 'V'];['S', 'T', 'R', 'OW1', 'V'];['S', 'T', 'R', 'IH1', 'V', 'AH0', 'N'];(['AY1', 'V'], ['OW1', 'V'], ['IH1', 'V', 'AH0', 'N']);стараться
+194;sublet;sublet;sublet;['S', 'AH1', 'B', 'L', 'EH2', 'T'];['S', 'AH1', 'B', 'L', 'EH2', 'T'];['S', 'AH1', 'B', 'L', 'EH2', 'T'];([], [], []);передавать в субаренду
+195;swear;swore;sworn;['S', 'W', 'EH1', 'R'];['S', 'W', 'AO1', 'R'];['S', 'W', 'AO1', 'R', 'N'];(['EH1', 'R'], ['AO1', 'R'], ['AO1', 'R', 'N']);(по)клясться
+196;sweep;swept;swept;['S', 'W', 'IY1', 'P'];['S', 'W', 'EH1', 'P', 'T'];['S', 'W', 'EH1', 'P', 'T'];(['IY1', 'P'], ['EH1', 'P', 'T'], ['EH1', 'P', 'T']);мести
+197;swell;swelled;swollen;['S', 'W', 'EH1', 'L'];['S', 'W', 'EH1', 'L', 'D'];['S', 'W', 'OW1', 'L', 'AH0', 'N'];([], ['D'], ['OW1', 'AH0', 'N']);вздуться
+198;swim;swam;swum;['S', 'W', 'IH1', 'M'];['S', 'W', 'AE1', 'M'];['S', 'W', 'AH1', 'M'];(['IH1', 'M'], ['AE1', 'M'], ['AH1', 'M']);плыть
+199;swing;swung;swung;['S', 'W', 'IH1', 'NG'];['S', 'W', 'AH1', 'NG'];['S', 'W', 'AH1', 'NG'];(['IH1', 'NG'], ['AH1', 'NG'], ['AH1', 'NG']);качаться
+200;take;took;taken;['T', 'EY1', 'K'];['T', 'UH1', 'K'];['T', 'EY1', 'K', 'AH0', 'N'];(['EY1', 'K'], ['UH1', 'K'], ['EY1', 'K', 'AH0', 'N']);взять
+201;teach;taught;taught;['T', 'IY1', 'CH'];['T', 'AO1', 'T'];['T', 'AO1', 'T'];(['IY1', 'CH'], ['AO1', 'T'], ['AO1', 'T']);учить
+202;tear;tore;torn;['T', 'EH1', 'R'];['T', 'AO1', 'R'];['T', 'AO1', 'R', 'N'];(['EH1', 'R'], ['AO1', 'R'], ['AO1', 'R', 'N']);рвать
+203;tell;told;told;['T', 'EH1', 'L'];['T', 'OW1', 'L', 'D'];['T', 'OW1', 'L', 'D'];(['EH1', 'L'], ['OW1', 'L', 'D'], ['OW1', 'L', 'D']);рассказывать
+204;think;thought;thought;['TH', 'IH1', 'NG', 'K'];['TH', 'AO1', 'T'];['TH', 'AO1', 'T'];(['IH1', 'NG', 'K'], ['AO1', 'T'], ['AO1', 'T']);думать
+205;throw;threw;thrown;['TH', 'R', 'OW1'];['TH', 'R', 'UW1'];['TH', 'R', 'OW1', 'N'];(['OW1'], ['UW1'], ['OW1', 'N']);бросить
+206;thrust;thrust;thrust;['TH', 'R', 'AH1', 'S', 'T'];['TH', 'R', 'AH1', 'S', 'T'];['TH', 'R', 'AH1', 'S', 'T'];([], [], []);толкнуть
+207;tread;trod;trod;['T', 'R', 'EH1', 'D'];['T', 'R', 'AA1', 'D'];['T', 'R', 'AA1', 'D'];(['EH1', 'D'], ['AA1', 'D'], ['AA1', 'D']);ступать
+208;underbid;underbid;underbid;['AH1', 'N', 'D', 'ER0', 'B', 'IH2', 'D'];['AH1', 'N', 'D', 'ER0', 'B', 'IH2', 'D'];['AH1', 'N', 'D', 'ER0', 'B', 'IH2', 'D'];([], [], []);снижать цену
+209;undercut;undercut;undercut;['AH1', 'N', 'D', 'ER0', 'K', 'AH2', 'T'];['AH1', 'N', 'D', 'ER0', 'K', 'AH2', 'T'];['AH1', 'N', 'D', 'ER0', 'K', 'AH2', 'T'];([], [], []);сбивать цены
+210;undergo;underwent;undergone;['AH2', 'N', 'D', 'ER0', 'G', 'OW1'];['AH2', 'N', 'D', 'ER0', 'W', 'EH1', 'N', 'T'];['AH2', 'N', 'D', 'ER0', 'G', 'AO1', 'N'];(['G', 'OW1'], ['W', 'EH1', 'N', 'T'], ['G', 'AO1', 'N']);проходить
+211;underpay;underpaid;underpaid;['AH2', 'N', 'D', 'ER0', 'P', 'EY1'];['AH1', 'N', 'D', 'ER0', 'P', 'EY1', 'D'];['AH1', 'N', 'D', 'ER0', 'P', 'EY1', 'D'];(['AH2', 'N', 'D', 'ER0', 'P', 'EY1'], ['AH1', 'N', 'D', 'ER0', 'P', 'EY1', 'D'], ['AH1', 'N', 'D', 'ER0', 'P', 'EY1', 'D']);оплачивать слишком низко
+212;undersell;undersold;undersold;['AH1', 'N', 'D', 'ER0', 'S', 'EH2', 'L'];['AH0', 'N', 'D', 'ER0', 'S', 'OW1', 'L', 'D'];['AH0', 'N', 'D', 'ER0', 'S', 'OW1', 'L', 'D'];(['AH1', 'N', 'D', 'ER0', 'S', 'EH2', 'L'], ['AH0', 'N', 'D', 'ER0', 'S', 'OW1', 'L', 'D'], ['AH0', 'N', 'D', 'ER0', 'S', 'OW1', 'L', 'D']);продавать дешевле
+213;understand;understood;understood;['AH2', 'N', 'D', 'ER0', 'S', 'T', 'AE1', 'N', 'D'];['AH2', 'N', 'D', 'ER0', 'S', 'T', 'UH1', 'D'];['AH2', 'N', 'D', 'ER0', 'S', 'T', 'UH1', 'D'];(['AE1', 'N', 'D'], ['UH1', 'D'], ['UH1', 'D']);понимать
+214;undertake;undertook;undertaken;['AH1', 'N', 'D', 'ER0', 'T', 'EY2', 'K'];['AH2', 'N', 'D', 'ER0', 'T', 'UH1', 'K'];['AH1', 'N', 'D', 'ER0', 'T', 'EY2', 'K', 'AH0', 'N'];(['AH1', 'N', 'D', 'ER0', 'T', 'EY2', 'K'], ['AH2', 'N', 'D', 'ER0', 'T', 'UH1', 'K'], ['AH1', 'N', 'D', 'ER0', 'T', 'EY2', 'K', 'AH0', 'N']);предпринять
+215;underwrite;underwrote;underwritten;['AH1', 'N', 'D', 'ER0', 'R', 'AY2', 'T'];['AH2', 'N', 'D', 'ER0', 'R', 'OW1', 'T'];['AH1', 'N', 'D', 'ER0', 'R', 'IH2', 'T', 'AH0', 'N'];(['AH1', 'N', 'D', 'ER0', 'R', 'AY2', 'T'], ['AH2', 'N', 'D', 'ER0', 'R', 'OW1', 'T'], ['AH1', 'N', 'D', 'ER0', 'R', 'IH2', 'T', 'AH0', 'N']);подписыва(ть)ся
+216;undo;undid;undone;['AH0', 'N', 'D', 'UW1'];['AH0', 'N', 'D', 'IH1', 'D'];['AH0', 'N', 'D', 'AH1', 'N'];(['UW1'], ['IH1', 'D'], ['AH1', 'N']);уничтожать сделанное
+217;unwind;unwound;unwound;['AH0', 'N', 'W', 'AY1', 'N', 'D'];['AH0', 'N', 'W', 'AW1', 'N', 'D'];['AH0', 'N', 'W', 'AW1', 'N', 'D'];(['AY1', 'N', 'D'], ['AW1', 'N', 'D'], ['AW1', 'N', 'D']);развертывать
+218;uphold;upheld;upheld;['AH0', 'P', 'HH', 'OW1', 'L', 'D'];['AH0', 'P', 'HH', 'EH1', 'L', 'D'];['AH0', 'P', 'HH', 'EH1', 'L', 'D'];(['OW1', 'L', 'D'], ['EH1', 'L', 'D'], ['EH1', 'L', 'D']);поддерживать
+219;upset;upset;upset;['AH0', 'P', 'S', 'EH1', 'T'];['AH0', 'P', 'S', 'EH1', 'T'];['AH0', 'P', 'S', 'EH1', 'T'];([], [], []);опрокинуть(ся)
+220;wake;woke;woken;['W', 'EY1', 'K'];['W', 'OW1', 'K'];['W', 'OW1', 'K', 'AH0', 'N'];(['EY1', 'K'], ['OW1', 'K'], ['OW1', 'K', 'AH0', 'N']);просыпаться
+221;waylay;waylaid;waylaid;['W', 'EY1', 'L', 'EY2'];['W', 'EY1', 'L', 'EY2', 'D'];['W', 'EY1', 'L', 'EY2', 'D'];([], ['D'], ['D']);подстерегать
+222;wear;wore;worn;['W', 'EH1', 'R'];['W', 'AO1', 'R'];['W', 'AO1', 'R', 'N'];(['EH1', 'R'], ['AO1', 'R'], ['AO1', 'R', 'N']);носить(одежду)
+223;weave;wove;woven;['W', 'IY1', 'V'];['W', 'OW1', 'V'];['W', 'OW1', 'V', 'AH0', 'N'];(['IY1', 'V'], ['OW1', 'V'], ['OW1', 'V', 'AH0', 'N']);ткать
+224;wed;wed;wed;['W', 'EH1', 'D'];['W', 'EH1', 'D'];['W', 'EH1', 'D'];([], [], []);выдавать замуж
+225;weep;wept;wept;['W', 'IY1', 'P'];['W', 'EH1', 'P', 'T'];['W', 'EH1', 'P', 'T'];(['IY1', 'P'], ['EH1', 'P', 'T'], ['EH1', 'P', 'T']);плакать
+226;wet;wet;wet;['W', 'EH1', 'T'];['W', 'EH1', 'T'];['W', 'EH1', 'T'];([], [], []);мочить
+227;win;won;won;['W', 'IH1', 'N'];['W', 'AH1', 'N'];['W', 'AH1', 'N'];(['IH1', 'N'], ['AH1', 'N'], ['AH1', 'N']);выиграть
+228;wind;wound;wound;['W', 'AY1', 'N', 'D'];['W', 'AW1', 'N', 'D'];['W', 'AW1', 'N', 'D'];(['AY1', 'N', 'D'], ['AW1', 'N', 'D'], ['AW1', 'N', 'D']);заводить (механизм)
+229;withdraw;withdrew;withdrawn;['W', 'IH0', 'DH', 'D', 'R', 'AO1'];['W', 'IH0', 'TH', 'D', 'R', 'UW1'];['W', 'IH0', 'TH', 'D', 'R', 'AO1', 'N'];(['DH', 'D', 'R', 'AO1'], ['TH', 'D', 'R', 'UW1'], ['TH', 'D', 'R', 'AO1', 'N']);взять назад
+230;withhold;withheld;withheld;['W', 'IH0', 'TH', 'HH', 'OW1', 'L', 'D'];['W', 'IH0', 'TH', 'HH', 'EH1', 'L', 'D'];['W', 'IH0', 'TH', 'HH', 'EH1', 'L', 'D'];(['OW1', 'L', 'D'], ['EH1', 'L', 'D'], ['EH1', 'L', 'D']);удерживать
+231;withstand;withstood;withstood;['W', 'IH0', 'TH', 'S', 'T', 'AE1', 'N', 'D'];['W', 'IH0', 'TH', 'S', 'T', 'UH1', 'D'];['W', 'IH0', 'TH', 'S', 'T', 'UH1', 'D'];(['AE1', 'N', 'D'], ['UH1', 'D'], ['UH1', 'D']);противиться
+232;work;worked;worked;['W', 'ER1', 'K'];['W', 'ER1', 'K', 'T'];['W', 'ER1', 'K', 'T'];([], ['T'], ['T']);работать
+233;wring;wrung;wrung;['R', 'IH1', 'NG'];['R', 'AH1', 'NG'];['R', 'AH1', 'NG'];(['IH1', 'NG'], ['AH1', 'NG'], ['AH1', 'NG']);скрутить
+234;write;wrote;written;['R', 'AY1', 'T'];['R', 'OW1', 'T'];['R', 'IH1', 'T', 'AH0', 'N'];(['AY1', 'T'], ['OW1', 'T'], ['IH1', 'T', 'AH0', 'N']);писать

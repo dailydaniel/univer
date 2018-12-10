@@ -1,0 +1,4 @@
+gauss with metod solve_gauss (mine)
+numpy
+pylab
+matplotlib

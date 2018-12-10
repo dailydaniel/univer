@@ -1,0 +1,383 @@
+cluster 0
+	forsake - forsook - forsaken
+	mistake - mistook - mistaken
+	retake - retook - retaken
+	shake - shook - shaken
+	take - took - taken
+----------------------------------------------------------------------
+cluster 1
+	beset - beset - beset
+	bet - bet - bet
+	broadcast - broadcast - broadcast
+	burst - burst - burst
+	bust - bust - bust
+	cast - cast - cast
+	cost - cost - cost
+	cut - cut - cut
+	forecast - forecast - forecast
+	hit - hit - hit
+	hurt - hurt - hurt
+	input - input - input
+	inset - inset - inset
+	knit - knit - knit
+	lead - led - led
+	let - let - let
+	miscast - miscast - miscast
+	misread - misread - misread
+	outbid - outbid - outbid
+	output - output - output
+	put - put - put
+	read - read - read
+	recast - recast - recast
+	reset - reset - reset
+	rid - rid - rid
+	set - set - set
+	shed - shed - shed
+	shred - shred - shred
+	shut - shut - shut
+	slit - slit - slit
+	split - split - split
+	spread - spread - spread
+	sublet - sublet - sublet
+	thrust - thrust - thrust
+	underbid - underbid - underbid
+	undercut - undercut - undercut
+	upset - upset - upset
+	wed - wed - wed
+	wet - wet - wet
+----------------------------------------------------------------------
+cluster 2
+	outdo - outdid - outdone
+	overhang - overhung - overhung
+	underpay - underpaid - underpaid
+	undersell - undersold - undersold
+	undertake - undertook - undertaken
+	underwrite - underwrote - underwritten
+----------------------------------------------------------------------
+cluster 3
+	crow - crowed - crowed
+	heave - heaved - heaved
+	inlay - inlaid - inlaid
+	lay - laid - laid
+	overlay - overlaid - overlaid
+	pay - paid - paid
+	prepay - prepaid - prepaid
+	prove - proved - proved
+	repay - repaid - repaid
+	sew - sewed - sewed
+	shave - shaved - shaved
+	sow - sowed - sowed
+	stave - staved - staved
+	waylay - waylaid - waylaid
+----------------------------------------------------------------------
+cluster 4
+	blow - blew - blown
+	grow - grew - grown
+	know - knew - known
+	outgrow - outgrew - outgrown
+	throw - threw - thrown
+----------------------------------------------------------------------
+cluster 5
+	begin - began - begun
+	cling - clung - clung
+	fling - flung - flung
+	ring - rang - rung
+	sing - sang - sung
+	sling - slung - slung
+	spin - spun - spun
+	spring - sprang - sprung
+	sting - stung - stung
+	string - strung - strung
+	swim - swam - swum
+	swing - swung - swung
+	win - won - won
+	wring - wrung - wrung
+----------------------------------------------------------------------
+cluster 6
+	bend - bent - bent
+	build - built - built
+	gild - gilt - gilt
+	lend - lent - lent
+	misspend - misspent - misspent
+	rebuild - rebuilt - rebuilt
+	send - sent - sent
+	spend - spent - spent
+----------------------------------------------------------------------
+cluster 7
+	creep - crept - crept
+	keep - kept - kept
+	leap - leapt - leapt
+	oversleep - overslept - overslept
+	sleep - slept - slept
+	sweep - swept - swept
+	weep - wept - wept
+----------------------------------------------------------------------
+cluster 8
+	do - did - done
+	overdo - overdid - overdone
+	redo - redid - redone
+	undo - undid - undone
+----------------------------------------------------------------------
+cluster 9
+	oversee - oversaw - overseen
+	see - saw - seen
+----------------------------------------------------------------------
+cluster 10
+	bless - blessed - blessed
+	burn - burnt - burnt
+	dwell - dwelt - dwelt
+	learn - learnt - learnt
+	smell - smelt - smelt
+	spill - spilt - spilt
+	work - worked - worked
+----------------------------------------------------------------------
+cluster 11
+	shear - sheared - shorn
+	swell - swelled - swollen
+----------------------------------------------------------------------
+cluster 12
+	bleed - bled - bled
+	breed - bred - bred
+	feed - fed - fed
+	hear - heard - heard
+	mislead - misled - misled
+	overhear - overheard - overheard
+	speed - sped - sped
+----------------------------------------------------------------------
+cluster 13
+	overpay - overpaid - overpaid
+	say - said - said
+----------------------------------------------------------------------
+cluster 14
+	forget - forgot - forgotten
+	get - got - got
+----------------------------------------------------------------------
+cluster 15
+	foretell - foretold - foretold
+	outsell - outsold - outsold
+	resell - resold - resold
+	sell - sold - sold
+	tell - told - told
+----------------------------------------------------------------------
+cluster 16
+	bear - bore - born
+	swear - swore - sworn
+	tear - tore - torn
+	wear - wore - worn
+----------------------------------------------------------------------
+cluster 17
+	lie - lay - lain
+----------------------------------------------------------------------
+cluster 18
+	become - became - become
+	come - came - come
+	overcome - overcame - overcome
+----------------------------------------------------------------------
+cluster 19
+	may - might - might
+----------------------------------------------------------------------
+cluster 20
+	plead - pleaded - pleaded
+----------------------------------------------------------------------
+cluster 21
+	bring - brought - brought
+	teach - taught - taught
+	think - thought - thought
+----------------------------------------------------------------------
+cluster 22
+	go - went - gone
+	undergo - underwent - undergone
+----------------------------------------------------------------------
+cluster 23
+	fly - flew - flown
+----------------------------------------------------------------------
+cluster 24
+	slay - slew - slain
+----------------------------------------------------------------------
+cluster 25
+	drink - drank - drunk
+	shrink - shrank - shrunk
+	sink - sank - sunk
+	stink - stank - stunk
+----------------------------------------------------------------------
+cluster 26
+	hold - held - held
+	uphold - upheld - upheld
+	withhold - withheld - withheld
+----------------------------------------------------------------------
+cluster 27
+	misunderstand - misunderstood - misunderstood
+	stand - stood - stood
+	understand - understood - understood
+	withstand - withstood - withstood
+----------------------------------------------------------------------
+cluster 28
+	bite - bit - bit
+	light - lit - lit
+----------------------------------------------------------------------
+cluster 29
+	flee - fled - fled
+----------------------------------------------------------------------
+cluster 30
+	bind - bound - bound
+	find - found - found
+	grind - ground - ground
+	unwind - unwound - unwound
+	wind - wound - wound
+----------------------------------------------------------------------
+cluster 31
+	arise - arose - arisen
+	rise - rose - risen
+----------------------------------------------------------------------
+cluster 32
+	hang - hung - hung
+	outrun - outran - outrun
+	overrun - overran - overrun
+	run - ran - run
+----------------------------------------------------------------------
+cluster 33
+	buy - bought - bought
+----------------------------------------------------------------------
+cluster 34
+	have - had - had
+----------------------------------------------------------------------
+cluster 35
+	beget - begot - begotten
+----------------------------------------------------------------------
+cluster 36
+	catch - caught - caught
+	fight - fought - fought
+	strike - struck - struck
+----------------------------------------------------------------------
+cluster 37
+	lose - lost - lost
+----------------------------------------------------------------------
+cluster 38
+	deal - dealt - dealt
+	dream - dreamt - dreamt
+	feel - felt - felt
+	kneel - knelt - knelt
+	mean - meant - meant
+----------------------------------------------------------------------
+cluster 39
+	make - made - made
+----------------------------------------------------------------------
+cluster 40
+	beat - beat - beaten
+----------------------------------------------------------------------
+cluster 41
+	forgive - forgave - forgiven
+	give - gave - given
+----------------------------------------------------------------------
+cluster 42
+	abide - abode - abode
+	override - overrode - overridden
+	ride - rode - ridden
+----------------------------------------------------------------------
+cluster 43
+	dig - dug - dug
+----------------------------------------------------------------------
+cluster 44
+	lean - leant - leant
+----------------------------------------------------------------------
+cluster 45
+	show - showed - shown
+----------------------------------------------------------------------
+cluster 46
+	speak - spoke - spoken
+----------------------------------------------------------------------
+cluster 47
+	draw - drew - drawn
+	overdraw - overdrew - overdrawn
+----------------------------------------------------------------------
+cluster 48
+	dare - durst - dared
+----------------------------------------------------------------------
+cluster 49
+	rewrite - rewrote - rewritten
+	write - wrote - written
+----------------------------------------------------------------------
+cluster 50
+	bid - bad - bid
+	forbid - forbad - forbidden
+----------------------------------------------------------------------
+cluster 51
+	shine - shone - shone
+----------------------------------------------------------------------
+cluster 52
+	seek - sought - sought
+	sit - sat - sat
+	spit - spat - spat
+	stick - stuck - stuck
+----------------------------------------------------------------------
+cluster 53
+	shoe - shod - shod
+----------------------------------------------------------------------
+cluster 54
+	meet - met - met
+----------------------------------------------------------------------
+cluster 55
+	tread - trod - trod
+----------------------------------------------------------------------
+cluster 56
+	hide - hid - hidden
+	slide - slid - slid
+----------------------------------------------------------------------
+cluster 57
+	freeze - froze - frozen
+	weave - wove - woven
+----------------------------------------------------------------------
+cluster 58
+	bereave - bereft - bereft
+	leave - left - left
+----------------------------------------------------------------------
+cluster 59
+	foresee - foresaw - foreseen
+----------------------------------------------------------------------
+cluster 60
+	withdraw - withdrew - withdrawn
+----------------------------------------------------------------------
+cluster 61
+	overshoot - overshot - overshot
+	shoot - shot - shot
+----------------------------------------------------------------------
+cluster 62
+	break - broke - broken
+	wake - woke - woken
+----------------------------------------------------------------------
+cluster 63
+	be - was - been
+----------------------------------------------------------------------
+cluster 64
+	dive - dived - dived
+----------------------------------------------------------------------
+cluster 65
+	choose - chose - chosen
+----------------------------------------------------------------------
+cluster 66
+	overtake - overtook - overtaken
+	overthrow - overthrew - overthrown
+----------------------------------------------------------------------
+cluster 67
+	mishear - misheard - misheard
+----------------------------------------------------------------------
+cluster 68
+	drive - drove - driven
+	strive - strove - striven
+----------------------------------------------------------------------
+cluster 69
+	remake - remade - remade
+----------------------------------------------------------------------
+cluster 70
+	outshine - outshone - outshone
+----------------------------------------------------------------------
+cluster 71
+	befall - befell - befallen
+	fall - fell - fallen
+----------------------------------------------------------------------
+cluster 72
+	steal - stole - stolen
+----------------------------------------------------------------------
+cluster 73
+	eat - ate - eaten
+----------------------------------------------------------------------
