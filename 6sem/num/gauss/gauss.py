@@ -54,8 +54,19 @@ def is_singular(m):
     """
     return np.any(np.diag(m) == 0)
 
+def check(m, res):
+    for j, line in enumerate(m):
+        s = 0
+        for i, el in enumerate(line[:-1]):
+            s += el * float(res[i])
+        if round(s, 5) != round(float(line[-1]), 5):
+             return False
+    return True
+
 
 if __name__ == '__main__':
     m = np.loadtxt('matrix.txt')
     res = solve_gauss(m)
     print(res)
+    m = np.loadtxt('matrix.txt')
+    print(check(m, res))
