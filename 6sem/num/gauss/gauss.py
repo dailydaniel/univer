@@ -23,9 +23,14 @@ def solve_gauss(m):
     :return: None
     """
     n = m.shape[0]
+
+    # main_el = [] # delete
+
     # forward trace
     for k in range(n - 1):
         bubble_max_row(m, k)
+        # print(m, '\n')
+        # main_el.append(m[k][k])
         for i in range(k + 1, n):
             # modify row
             frac = m[i, k] / m[k, k]
@@ -43,8 +48,7 @@ def solve_gauss(m):
     for k in range(n - 1, -1, -1):
         x[k, 0] = (m[k, -1] - m[k, k:n] * x[k:n, 0]) / m[k, k]
 
-    # Display results
-    return x #display_results(x)
+    return x#, main_el
 
 
 def is_singular(m):
@@ -70,3 +74,5 @@ if __name__ == '__main__':
     print(res)
     m = np.loadtxt('matrix.txt')
     print(check(m, res))
+    # _, main_el = solve_gauss(m)
+    # print(main_el[1])
