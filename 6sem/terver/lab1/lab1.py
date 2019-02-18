@@ -216,15 +216,6 @@ if __name__ == '__main__':
             'geometr': (geometr, 0.1 + 0.01 * variant),
             'puasson': (puasson, 0.7 + 0.07 * variant)}
 
-    # n = 5 + variant % 17
-    # p = 0.1 + 0.01 * variant
-    # res = binomial(n = n, p = p, size = 150,
-    #                              write = namespace.write,
-    #                              read = namespace.read)
-
-    # line = '\n\n'.join(result)
-    # print(line.format(*res))
-
     out = ''
     for r_type, fdata in task.items():
         func, params = fdata
