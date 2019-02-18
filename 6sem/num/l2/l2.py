@@ -72,7 +72,7 @@ def generatePQ(m):
         yield(pq[0][i], pq[1][i])
 
 
-def solvePR(m, x = None, pq = None):
+def solvePR(m, x = None, pq = None, r = False):
     pq = generatePQ(m) if not pq else pq
 
     flag = True
@@ -81,9 +81,12 @@ def solvePR(m, x = None, pq = None):
     except:
         flag = False
 
+    if r:
+        P, Q = round(P, 4), round(Q, 4)
+
     if flag == False:
         x.reverse()
-        x = [round(el, 4) for el in x]
+        # x = [round(el, 4) for el in x]
         return x
 
     if not x:
@@ -92,6 +95,15 @@ def solvePR(m, x = None, pq = None):
         x.append(P * x[-1] + Q)
 
     return solvePR(m, x, pq)
+
+def check(m, res):
+    for j, line in enumerate(m):
+        s = 0
+        for i, el in enumerate(line[:-1]):
+            s += el * float(res[i])
+        if round(s, 5) != round(float(line[-1]), 5):
+             return False
+    return True
 
 if __name__ == '__main__':
     parser = createParser()
