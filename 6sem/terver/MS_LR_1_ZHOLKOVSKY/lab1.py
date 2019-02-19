@@ -45,10 +45,10 @@ def load(type_ryad, n = -1):
     with open(files[n], 'rb') as f:
         return(pickle.load(f))
 
-def draw_poligon(count, pr, name):
+def draw_poligon(count, pr, name, sizex=5, sizey=5):
     X = list(count.keys())
     Y = [count[x][1] for x in X]
-    fig, ax = plt.subplots(figsize=(5, 5))
+    fig, ax = plt.subplots(figsize=(sizex, sizey))
     ax.plot(X, Y, label='относительные частоты')
     ax.plot(X, pr, label='вероятности')
     ax.set_title('Полигон относительных частот')
@@ -57,12 +57,24 @@ def draw_poligon(count, pr, name):
     ax.set_xlabel('x')
     ax.set_xlim(xmin=0, xmax=max(X))
     ax.set_ylim(ymin=0, ymax=max(Y) + 0.1)
-    ax.grid()
+    if sizex != 5:
+        # Don't allow the axis to be on top of your data
+        ax.set_axisbelow(True)
+
+        # Turn on the minor TICKS, which are required for the minor GRID
+        ax.minorticks_on()
+
+        # Customize the major grid
+        ax.grid(which='major', linestyle='-', linewidth='0.5', color='red')
+        # Customize the minor grid
+        ax.grid(which='minor', linestyle=':', linewidth='0.5', color='black')
+    else:
+        ax.grid()
     fig.tight_layout()
     fig.savefig('data/poligon_' + name + '.png')
 
-def draw_cdf(Xlist, Ylist, name):
-    fig, ax = plt.subplots(figsize=(5, 5))
+def draw_cdf(Xlist, Ylist, name, sizex=5, sizey=5):
+    fig, ax = plt.subplots(figsize=(sizex, sizey))
 
     for X, Y in zip(Xlist, Ylist):
         ax.plot(X, Y, label='')
@@ -73,7 +85,19 @@ def draw_cdf(Xlist, Ylist, name):
     ax.set_xlim(xmin=0, xmax=max(X))
     ax.set_ylim(ymin=0, ymax=1)
     fig.tight_layout()
-    ax.grid()
+    if sizex != 5:
+        # Don't allow the axis to be on top of your data
+        ax.set_axisbelow(True)
+
+        # Turn on the minor TICKS, which are required for the minor GRID
+        ax.minorticks_on()
+
+        # Customize the major grid
+        ax.grid(which='major', linestyle='-', linewidth='0.5', color='red')
+        # Customize the minor grid
+        ax.grid(which='minor', linestyle=':', linewidth='0.5', color='black')
+    else:
+        ax.grid()
     fig.savefig('data/cdf_' + name + '.png')
 
 def expect(nv, key):
@@ -172,7 +196,7 @@ def geometr(p, size, write, read):
     ex_mean, ex_var, ex_standart, ex_skew, ex_kurtosis, ex_mode, ex_med = exp_stats(nv, r, st_r)
 
     pr = [st.geom.pmf(x, p) for x in list(nv.keys())]
-    draw_poligon(nv, pr, 'geometr')
+    draw_poligon(nv, pr, 'geometr', 30, 30)
 
     # delta = 0.01
     # items = list(zip(list(range(max(r) + 2)), islice(list(range(max(r) + 2)), 1, None))) # [(0, 1), (1, 2), ...]
@@ -182,7 +206,7 @@ def geometr(p, size, write, read):
 
     Xlist, Ylist, Y = generate_ef(nv, r)
 
-    draw_cdf(Xlist, Ylist, 'geometr')
+    draw_cdf(Xlist, Ylist, 'geometr', 30, 30)
 
     cdf_func = [el[0] for el in Ylist]
     cdf_func.append(1.0)
