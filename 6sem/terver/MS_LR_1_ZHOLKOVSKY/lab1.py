@@ -45,17 +45,18 @@ def load(type_ryad, n = -1):
     with open(files[n], 'rb') as f:
         return(pickle.load(f))
 
-def draw_poligon(count, name):
+def draw_poligon(count, pr, name):
     X = list(count.keys())
-    Y = [count[x] for x in X]
+    Y = [count[x][1] for x in X]
     fig, ax = plt.subplots(figsize=(5, 5))
-    ax.plot(X, Y, label='Полигон относительных частот')
+    ax.plot(X, Y, label='относительные частоты')
+    ax.plot(X, pr, label='вероятности')
     ax.set_title('Полигон относительных частот')
     ax.legend(loc='upper left')
     ax.set_ylabel('y')
     ax.set_xlabel('x')
     ax.set_xlim(xmin=0, xmax=max(X))
-    ax.set_ylim(ymin=0, ymax=max(Y) + 5)
+    ax.set_ylim(ymin=0, ymax=max(Y) + 0.1)
     ax.grid()
     fig.tight_layout()
     fig.savefig('data/poligon_' + name + '.png')
@@ -74,6 +75,27 @@ def draw_cdf(Xlist, Ylist, name):
     fig.tight_layout()
     ax.grid()
     fig.savefig('data/cdf_' + name + '.png')
+
+def expect(nv, key):
+    if key in nv.keys():
+        return nv[key][1]
+    else:
+        return 0.0
+    # elif key not in nv.keys() and key != 0:
+    #     return expect(nv, key-1)
+    # else:
+    #     return 0.0
+
+def generate_ef(nv, r):
+    delta = 0.01
+    items = list(zip(list(range(max(r) + 2)), islice(list(range(max(r) + 2)), 1, None))) # [(0, 1), (1, 2), ...]
+    keys = list(range(list(nv.keys())[-1] + 1)) # list(nv.keys())
+    Y = [sum([expect(nv, key) for key in keys[:i + 1]]) for i, el in enumerate(keys)]
+    Xlist = [[x * delta for x in range(item[0] * int(1 / delta), item[1] * int(1 / delta))]
+              for item in items]
+    Ylist = [[y] * len(Xlist[i]) for i, y in enumerate(Y)]
+    # Ylist = [[st.binom.cdf(x, n, p) for x in line] for line in Xlist]
+    return Xlist, Ylist, Y
 
 def exp_stats(nv, r, st_r):
     mean = sum([key * val[1] for key, val in nv.items()]) # mean
@@ -101,13 +123,16 @@ def binomial(np, size, write, read):
 
     ex_mean, ex_var, ex_standart, ex_skew, ex_kurtosis, ex_mode, ex_med = exp_stats(nv, r, st_r)
 
-    draw_poligon(p_ch, 'binomial')
+    pr = [st.binom.pmf(x, n, p) for x in list(nv.keys())]
+    draw_poligon(nv, pr, 'binomial')
 
-    delta = 0.01
-    items = list(zip(list(range(max(r) + 2)), islice(list(range(max(r) + 2)), 1, None))) # [(0, 1), (1, 2), ...]
-    Xlist = [[x * delta for x in range(item[0] * int(1 / delta), item[1] * int(1 / delta))]
-              for item in items]
-    Ylist = [[st.binom.cdf(x, n, p) for x in line] for line in Xlist]
+    # delta = 0.01
+    # items = list(zip(list(range(max(r) + 2)), islice(list(range(max(r) + 2)), 1, None))) # [(0, 1), (1, 2), ...]
+    # Xlist = [[x * delta for x in range(item[0] * int(1 / delta), item[1] * int(1 / delta))]
+    #           for item in items]
+    # Ylist = [[st.binom.cdf(x, n, p) for x in line] for line in Xlist]
+
+    Xlist, Ylist, Y = generate_ef(nv, r)
 
     draw_cdf(Xlist, Ylist, 'binomial')
 
@@ -133,7 +158,7 @@ def binomial(np, size, write, read):
                                                     ex_skew,
                                                     ex_kurtosis,
                                                     float(ex_mode.mode),
-                                                    ex_med, pmf)
+                                                    ex_med, pmf, Y)
 
 def geometr(p, size, write, read):
     r = load('geometr') if read else st.geom.rvs(p, size=size)
@@ -146,13 +171,16 @@ def geometr(p, size, write, read):
 
     ex_mean, ex_var, ex_standart, ex_skew, ex_kurtosis, ex_mode, ex_med = exp_stats(nv, r, st_r)
 
-    draw_poligon(p_ch, 'geometr')
+    pr = [st.geom.pmf(x, p) for x in list(nv.keys())]
+    draw_poligon(nv, pr, 'geometr')
 
-    delta = 0.01
-    items = list(zip(list(range(max(r) + 2)), islice(list(range(max(r) + 2)), 1, None))) # [(0, 1), (1, 2), ...]
-    Xlist = [[x * delta for x in range(item[0] * int(1 / delta), item[1] * int(1 / delta))]
-              for item in items]
-    Ylist = [[st.geom.cdf(x, p) for x in line] for line in Xlist]
+    # delta = 0.01
+    # items = list(zip(list(range(max(r) + 2)), islice(list(range(max(r) + 2)), 1, None))) # [(0, 1), (1, 2), ...]
+    # Xlist = [[x * delta for x in range(item[0] * int(1 / delta), item[1] * int(1 / delta))]
+    #           for item in items]
+    # Ylist = [[st.geom.cdf(x, p) for x in line] for line in Xlist]
+
+    Xlist, Ylist, Y = generate_ef(nv, r)
 
     draw_cdf(Xlist, Ylist, 'geometr')
 
@@ -178,7 +206,7 @@ def geometr(p, size, write, read):
                                                     ex_skew,
                                                     ex_kurtosis,
                                                     float(ex_mode.mode),
-                                                    ex_med, pmf)
+                                                    ex_med, pmf, Y)
 
 def puasson(mu, size, write, read):
     r = load('puasson') if read else st.poisson.rvs(mu, size=size)
@@ -191,13 +219,16 @@ def puasson(mu, size, write, read):
 
     ex_mean, ex_var, ex_standart, ex_skew, ex_kurtosis, ex_mode, ex_med = exp_stats(nv, r, st_r)
 
-    draw_poligon(p_ch, 'puasson')
+    pr = [st.poisson.pmf(x, mu) for x in list(nv.keys())]
+    draw_poligon(nv, pr, 'puasson')
 
-    delta = 0.01
-    items = list(zip(list(range(max(r) + 2)), islice(list(range(max(r) + 2)), 1, None))) # [(0, 1), (1, 2), ...]
-    Xlist = [[x * delta for x in range(item[0] * int(1 / delta), item[1] * int(1 / delta))]
-              for item in items]
-    Ylist = [[st.poisson.cdf(x, mu) for x in line] for line in Xlist]
+    # delta = 0.01
+    # items = list(zip(list(range(max(r) + 2)), islice(list(range(max(r) + 2)), 1, None))) # [(0, 1), (1, 2), ...]
+    # Xlist = [[x * delta for x in range(item[0] * int(1 / delta), item[1] * int(1 / delta))]
+    #           for item in items]
+    # Ylist = [[st.poisson.cdf(x, mu) for x in line] for line in Xlist]
+
+    Xlist, Ylist, Y = generate_ef(nv, r)
 
     draw_cdf(Xlist, Ylist, 'puasson')
 
@@ -223,7 +254,7 @@ def puasson(mu, size, write, read):
                                                     ex_skew,
                                                     ex_kurtosis,
                                                     float(ex_mode.mode),
-                                                    ex_med, pmf)
+                                                    ex_med, pmf, Y)
 
 def save_result(result):
     reg = 'data/result*'
@@ -253,7 +284,8 @@ if __name__ == '__main__':
               'теор. среднее квадратичное отклонение: {8} <=> среднее квадратичное отклонение: {13}',
               'теор. медиана: {9} <=> медиана: {17}',
               'теор. мода: {10} <=> мода: {16}',
-              'pmf: {18}']
+              'pmf: {18}',
+              'ex_pmf {19}']
 
     line = '\n\n'.join(result)
 
