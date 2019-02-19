@@ -27,7 +27,7 @@ def save(r, type_ryad):
     reg = 'data/' + type_ryad + '*'
     files = glob(reg) # type: ryadN.pickle
     if files:
-        n = int(re.sub(r'[^\d]', '', files[-1]))
+        n = int(re.sub(r'[^\d]', '', files[0]))
         n += 1
     else:
         n = 0
@@ -75,6 +75,20 @@ def draw_cdf(Xlist, Ylist, name):
     ax.grid()
     fig.savefig('data/cdf_' + name + '.png')
 
+def exp_stats(nv, r, st_r):
+    mean = sum([key * val[1] for key, val in nv.items()]) # mean
+    var = sum([(key - mean) ** 2 * val[1] for key, val in nv.items()])
+    standart = var ** 0.5
+    mu = lambda k: sum([(key - mean) ** k * val[1] for key, val in nv.items()])
+    skew = mu(3) / (standart ** 3)
+    kurtosis = mu(4) / (standart ** 4) - 3
+    mode = st.mode(r)
+    if len(st_r) % 2 != 0:
+        med = st_r[int(len(st_r) / 2)]
+    else:
+        med = 0.5 * (st_r[int(len(st_r) / 2)] + st_r[int(len(st_r) / 2) - 1])
+    return mean, var, standart, skew, kurtosis, mode, med
+
 def binomial(np, size, write, read):
     n, p = np
     r = load('binomial') if read else st.binom.rvs(n, p, size=size)
@@ -84,6 +98,8 @@ def binomial(np, size, write, read):
     st_r = sorted(r)
     p_ch = Counter(r)
     nv = {key: (val, val / sum(p_ch.values())) for key, val in p_ch.items()}
+
+    ex_mean, ex_var, ex_standart, ex_skew, ex_kurtosis, ex_mode, ex_med = exp_stats(nv, r, st_r)
 
     draw_poligon(p_ch, 'binomial')
 
@@ -96,12 +112,14 @@ def binomial(np, size, write, read):
     draw_cdf(Xlist, Ylist, 'binomial')
 
     cdf_func = [el[0] for el in Ylist]
-    cdf_func.append(1.0)
-    cdf_func.insert(0, 0.0)
+    # cdf_func.append(1.0)
+    # cdf_func.insert(0, 0.0)
 
     mean, variance, skew, kurtosis = st.binom.stats(n, p, moments='mvsk') # среднее, дисперсия, ассиметрия, эксцесс
     standart, med = st.binom.std(n, p), st.binom.median(n, p) # стантартное отклонение, медиана
     mode = st.mode(r) # мода
+
+    pmf = [abs(val[1] - st.binom.pmf(key, n, p)) for key, val in nv.items()]
 
     return (r, st_r, cdf_func, nv, float(mean),
                                   float(variance),
@@ -109,7 +127,13 @@ def binomial(np, size, write, read):
                                   float(kurtosis),
                                   standart,
                                   med,
-                                  float(mode.mode))
+                                  float(mode.mode), ex_mean,
+                                                    ex_var,
+                                                    ex_standart,
+                                                    ex_skew,
+                                                    ex_kurtosis,
+                                                    float(ex_mode.mode),
+                                                    ex_med, pmf)
 
 def geometr(p, size, write, read):
     r = load('geometr') if read else st.geom.rvs(p, size=size)
@@ -119,6 +143,8 @@ def geometr(p, size, write, read):
     st_r = sorted(r)
     p_ch = Counter(r)
     nv = {key: (val, val / sum(p_ch.values())) for key, val in p_ch.items()}
+
+    ex_mean, ex_var, ex_standart, ex_skew, ex_kurtosis, ex_mode, ex_med = exp_stats(nv, r, st_r)
 
     draw_poligon(p_ch, 'geometr')
 
@@ -138,13 +164,21 @@ def geometr(p, size, write, read):
     standart, med = st.geom.std(p), st.geom.median(p) # стантартное отклонение, медиана
     mode = st.mode(r) # мода
 
+    pmf = [abs(val[1] - st.geom.pmf(key, p)) for key, val in nv.items()]
+
     return (r, st_r, cdf_func, nv, float(mean),
                                   float(variance),
                                   float(skew),
                                   float(kurtosis),
                                   standart,
                                   med,
-                                  float(mode.mode))
+                                  float(mode.mode), ex_mean,
+                                                    ex_var,
+                                                    ex_standart,
+                                                    ex_skew,
+                                                    ex_kurtosis,
+                                                    float(ex_mode.mode),
+                                                    ex_med, pmf)
 
 def puasson(mu, size, write, read):
     r = load('puasson') if read else st.poisson.rvs(mu, size=size)
@@ -154,6 +188,8 @@ def puasson(mu, size, write, read):
     st_r = sorted(r)
     p_ch = Counter(r)
     nv = {key: (val, val / sum(p_ch.values())) for key, val in p_ch.items()}
+
+    ex_mean, ex_var, ex_standart, ex_skew, ex_kurtosis, ex_mode, ex_med = exp_stats(nv, r, st_r)
 
     draw_poligon(p_ch, 'puasson')
 
@@ -173,19 +209,27 @@ def puasson(mu, size, write, read):
     standart, med = st.poisson.std(mu), st.poisson.median(mu) # стантартное отклонение, медиана
     mode = st.mode(r) # мода
 
+    pmf = [abs(val[1] - st.poisson.pmf(key, mu)) for key, val in nv.items()]
+
     return (r, st_r, cdf_func, nv, float(mean),
                                   float(variance),
                                   float(skew),
                                   float(kurtosis),
                                   standart,
                                   med,
-                                  float(mode.mode))
+                                  float(mode.mode), ex_mean,
+                                                    ex_var,
+                                                    ex_standart,
+                                                    ex_skew,
+                                                    ex_kurtosis,
+                                                    float(ex_mode.mode),
+                                                    ex_med, pmf)
 
 def save_result(result):
     reg = 'data/result*'
     files = glob(reg)
     if files:
-        n = int(re.sub(r'[^\d]', '', files[-1]))
+        n = int(re.sub(r'[^\d]', '', files[0]))
         n += 1
     else:
         n = 0
@@ -202,13 +246,14 @@ if __name__ == '__main__':
               'упорядоченная: {1}',
               'эмпирическая функция распределения: {2}',
               'статистический ряд: {3}',
-              'среднее: {4}',
-              'дисперсия: {5}',
-              'ассиметрия: {6}',
-              'эксцесс: {7}',
-              'среднее квадратичное отклонение: {8}',
-              'медиана: {9}',
-              'мода: {10}']
+              'теор. среднее: {4} <=> среднее: {11}',
+              'теор. дисперсия: {5} <=> дисперсия: {12}',
+              'теор. ассиметрия: {6} <=> ассиметрия: {14}',
+              'теор. эксцесс: {7} <=> эксцесс: {15}',
+              'теор. среднее квадратичное отклонение: {8} <=> среднее квадратичное отклонение: {13}',
+              'теор. медиана: {9} <=> медиана: {17}',
+              'теор. мода: {10} <=> мода: {16}',
+              'pmf: {18}']
 
     line = '\n\n'.join(result)
 
