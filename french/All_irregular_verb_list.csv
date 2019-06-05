@@ -1,0 +1,300 @@
+;First;Second;Third;Translate
+0;abide;abode;abode;пребывать
+1;arise;arose;arisen;подняться
+2;awake;awoke;awaked;будить
+3;backbite;backbitten;backbitten;клеветать
+4;backslide;backslid;backslid;отпадать
+5;be;was;been;быть
+6;bear;bore;born;родить
+7;beat;beat;beaten;бить
+8;become;became;become;стать
+9;befall;befell;befallen;случиться
+10;beget;begot;begotten;порождать
+11;begin;began;begun;начать
+12;begird;begirt;begirt;опоясывать
+13;behold;beheld;beheld;зреть
+14;bend;bent;bent;согнуть(ся)
+15;bereave;bereft;bereft;лишать
+16;beseech;besought;besought;умолять
+17;beset;beset;beset;осаждать
+18;bespeak;bespoke;bespoke;заказывать
+19;bespit;bespat;bespat;заплевывать
+20;bestride;bestrode;bestridden;садиться
+21;bet;bet;bet;держать пари
+22;betake;betook;betaken;приниматься
+23;bid;bad;bid;велеть
+24;bind;bound;bound;связать
+25;bite;bit;bit;кусать
+26;bleed;bled;bled;кровоточить
+27;bless;blessed;blessed;благословлять
+28;blow;blew;blown;дуть
+29;break;broke;broken;(с)ломать
+30;breed;bred;bred;выращивать
+31;bring;brought;brought;принести
+32;broadcast;broadcast;broadcast;распространять
+33;browbeat;browbeat;browbeaten;запугивать
+34;build;built;built;строить
+35;burn;burnt;burnt;жечь
+36;burst;burst;burst;разразиться
+37;bust;bust;bust;разжаловать
+38;buy;bought;bought;купить
+39;C ;C ;C ;C 
+40;can;could;- / been able;мочь
+41;cast;cast;cast;кинуть
+42;catch;caught;caught;ловить
+43;chide;chid;chid;бранить
+44;choose;chose;chosen;выбрать
+45;cleave;clove;cloven;рассечь
+46;cling;clung;clung;цепляться
+47;come;came;come;прийти
+48;cost;cost;cost;стоить
+49;countersink;countersank;countersunk;зенковать
+50;creep;crept;crept;ползти
+51;crow;crowed;crowed;петь (о петухе)
+52;cut;cut;cut;резать
+53;D ;D ;D ;D 
+54;dare;durst;dared;сметь
+55;deal;dealt;dealt;иметь дело
+56;dig;dug;dug;копать
+57;dive;dived;dived;нырять
+58;do;did;done;делать
+59;draw;drew;drawn;тащить
+60;dream;dreamt;dreamt;грезить
+61;drink;drank;drunk;пить
+62;drive;drove;driven;гнать
+63;dwell;dwelt;dwelt;обитать
+64;E ;E ;E ;E 
+65;eat;ate;eaten;кушать
+66;F ;F ;F ;F 
+67;fall;fell;fallen;падать
+68;feed;fed;fed;кормить
+69;feel;felt;felt;чувствовать
+70;fight;fought;fought;сражаться
+71;find;found;found;находить
+72;flee;fled;fled;бежать
+73;fling;flung;flung;бросить
+74;floodlight;floodlighted;floodlighted;освещать прожектором
+75;fly;flew;flown;летать
+76;forbear;forbore;forborne;воздерживаться
+77;forbid;forbad;forbidden;запретить
+78;forecast;forecast;forecast;предсказывать
+79;foresee;foresaw;foreseen;предвидеть
+80;foretell;foretold;foretold;предсказывать
+81;forget;forgot;forgotten;забыть
+82;forgive;forgave;forgiven;простить
+83;forsake;forsook;forsaken;покидать
+84;forswear;forswore;forsworn;отрекаться
+85;freeze;froze;frozen;замерзнуть
+86;G ;G ;G ;G 
+87;gainsay;gainsaid;gainsaid;отрицать
+88;get;got;got;получить
+89;gild;gilt;gilt;позолотить
+90;gird;girded;girded;опоясывать
+91;give;gave;given;дать
+92;go;went;gone;идти
+93;grave;graved;graved;гравировать
+94;grind;ground;ground;точить
+95;grow;grew;grown;расти
+96;H ;H ;H ;H 
+97;hamstring;hamstringed;hamstringed;подрезать поджилки
+98;hang;hung;hung;висеть
+99;have;had;had;иметь
+100;hear;heard;heard;слушать
+101;heave;heaved;heaved;подымать(ся)
+102;hew;hewed/td> ;hewed;рубить
+103;hide;hid;hidden;прятать(ся)
+104;hit;hit;hit;ударить
+105;hold;held;held;держать
+106;hurt;hurt;hurt;причинить боль
+107;inlay;inlaid;inlaid;вкладывать
+108;input;input;input;входить
+109;inset;inset;inset;вставлять
+110;interweave;interwove;interwoven;воткать
+111;keep;kept;kept;хранить
+112;ken;kenned;kenned;знать
+113;kneel;knelt;knelt;становиться на колени
+114;knit;knit;knit;вязать
+115;know;knew;known;знать
+116;lade;laded;laded;грузить
+117;lay;laid;laid;класть
+118;lead;led;led;вести
+119;lean;leant;leant;опереться
+120;leap;leapt;leapt;прыгать
+121;learn;learnt;learnt;учить
+122;leave;left;left;оставить
+123;lend;lent;lent;одолжить
+124;let;let;let;пустить
+125;lie;lay;lain;лежать
+126;light;lit;lit;осветить
+127;lose;lost;lost;терять
+128;make;made;made;делать
+129;may;might;might;мочь
+130;mean;meant;meant;подразумевать
+131;meet;met;met;встретить
+132;miscast;miscast;miscast;неправильно распределять роли
+133;misdeal;misdealt;misdealt;поступать неправильно
+134;misgive;misgave;misgiven;внушать опасения
+135;mishear;misheard;misheard;ослышаться
+136;mishit;mishit;mishit;промахнуться
+137;mislay;mislaid;mislaid;класть не на место
+138;mislead;misled;misled;ввести в заблуждение
+139;misread;misread;misread;неправильно истолковывать
+140;misspell;misspelt;misspelt;писать с ошибками
+141;misspend;misspent;misspent;экономить
+142;mistake;mistook;mistaken;неправильно понимать
+143;misunderstand;misunderstood;misunderstood;неправильно понимать
+144;mow;mowed;mown;косить
+145;outbid;outbid;outbid;перебивать цену
+146;outdo;outdid;outdone;превосходить
+147;outfight;outfought;outfought;побеждать (в бою)
+148;outgrow;outgrew;outgrown;вырастать из
+149;output;output;output;выходить
+150;outrun;outran;outrun;перегонять
+151;outsell;outsold;outsold;продавать лучше или дороже
+152;outshine;outshone;outshone;затмевать
+153;overbid;overbid;overbid;повелевать
+154;overcome;overcame;overcome;компенсировать
+155;overdo;overdid;overdone;пережари(ва)ть
+156;overdraw;overdrew;overdrawn;превышать
+157;overeat;overate;overeaten;объедаться
+158;overfly;overflew;overflown;перелетать
+159;overhang;overhung;overhung;нависать
+160;overhear;overheard;overheard;подслуш(ив)ать
+161;overlay;overlaid;overlaid;покры(ва)ть
+162;overpay;overpaid;overpaid;переплачивать
+163;override;overrode;overridden;отвергать
+164;overrun;overran;overrun;переливаться через край
+165;oversee;oversaw;overseen;надзирать за
+166;overshoot;overshot;overshot;расстрелять
+167;oversleep;overslept;overslept;прос(ы)пать
+168;overtake;overtook;overtaken;догонять
+169;overthrow;overthrew;overthrown;свергать
+170;partake;partook;partaken;принимать участие
+171;pay;paid;paid;платить
+172;plead;pleaded;pleaded;обращаться к суду
+173;prepay;prepaid;prepaid;платить вперед
+174;prove;proved;proved;доказывать
+175;put;put;put;класть
+176;read;read;read;читать
+177;rebind;rebound;rebound;перевязывать
+178;rebuild;rebuilt;rebuilt;перестроить
+179;recast;recast;recast;видоизменять
+180;redo;redid;redone;повторять сделанное
+181;rehear;reheard;reheard;слушать вторично
+182;remake;remade;remade;переделывать
+183;rend;rent;rent;раздирать
+184;repay;repaid;repaid;отдавать долг
+185;rerun;reran;rerun;выполнять повторно
+186;resell;resold;resold;перепродавать
+187;reset;reset;reset;возвращать
+188;resit;resat;resat;пересиживать
+189;retake;retook;retaken;забирать
+190;retell;retold;retold;пересказывать
+191;rewrite;rewrote;rewritten;пере(за)писать
+192;rid;rid;rid;избавлять
+193;ride;rode;ridden;ездить верхом
+194;ring;rang;rung;звонить
+195;rise;rose;risen;подняться
+196;rive;rived;riven;расщеплять
+197;run;ran;run;бежать
+198;saw;sawed;sawn;пилить
+199;say;said;said;говорить
+200;see;saw;seen;видеть
+201;seek;sought;sought;искать
+202;sell;sold;sold;продавать
+203;send;sent;sent;послать
+204;set;set;set;устанавливать
+205;sew;sewed;sewed;шить
+206;shake;shook;shaken;трясти
+207;shave;shaved;shaved;брить(ся)
+208;shear;sheared;shorn;стричь
+209;shed;shed;shed;проливать
+210;shine;shone;shone;светить
+211;shoe;shod;shod;обувать
+212;shoot;shot;shot;стрелять
+213;show;showed;shown;показывать
+214;shred;shred;shred;кромсать
+215;shrink;shrank;shrunk;сокращаться
+216;shrive;shrove;shriven;исповедовать
+217;shut;shut;shut;закрывать
+218;sing;sang;sung;петь
+219;sink;sank;sunk;опускаться
+220;sit;sat;sat;сидеть
+221;slay;slew;slain;убивать
+222;sleep;slept;slept;спать
+223;slide;slid;slid;скользить
+224;sling;slung;slung;швырять
+225;slink;slunk;slunk;идти крадучись
+226;slit;slit;slit;раздирать(ся)
+227;smell;smelt;smelt;пахнуть
+228;smite;smote;smitten;ударять
+229;sow;sowed;sowed;(по)сеять
+230;speak;spoke;spoken;говорить
+231;speed;sped;sped;ускорять
+232;spell;spelt;spell;писать или читать по буквам
+233;spend;spent;spent;тратить
+234;spill;spilt;spilt;пролить
+235;spin;spun;spun;прясть
+236;spit;spat;spat;плевать
+237;split;split;split;расщепить(ся)
+238;spoil;spoilt;spoilt;портить
+239;spotlight;spotlit;spotlit;осветить
+240;spread;spread;spread;распространиться
+241;spring;sprang;sprung;вскочить
+242;stand;stood;stood;стоять
+243;stave;staved;staved;проламывать
+244;steal;stole;stolen;украсть
+245;stick;stuck;stuck;уколоть
+246;sting;stung;stung;ужалить
+247;stink;stank;stunk;вонять
+248;strew;strewed;strewn;усеять
+249;stride;strode;stridden;шагать
+250;strike;struck;struck;ударить
+251;string;strung;strung;нанизать
+252;strive;strove;striven;стараться
+253;sublet;sublet;sublet;передавать в субаренду
+254;swear;swore;sworn;(по)клясться
+255;sweep;swept;swept;мести
+256;swell;swelled;swollen;вздуться
+257;swim;swam;swum;плыть
+258;swing;swung;swung;качаться
+259;take;took;taken;взять
+260;teach;taught;taught;учить
+261;tear;tore;torn;рвать
+262;tell;told;told;рассказывать
+263;think;thought;thought;думать
+264;thrive;throve;thriven;процветать
+265;throw;threw;thrown;бросить
+266;thrust;thrust;thrust;толкнуть
+267;tread;trod;trod;ступать
+268;unbend;unbent;unbent;разогнуть(ся)
+269;underbid;underbid;underbid;снижать цену
+270;undercut;undercut;undercut;сбивать цены
+271;undergo;underwent;undergone;проходить
+272;underlie;underlay;underlain;лежать в основе
+273;underpay;underpaid;underpaid;оплачивать слишком низко
+274;undersell;undersold;undersold;продавать дешевле
+275;understand;understood;understood;понимать
+276;undertake;undertook;undertaken;предпринять
+277;underwrite;underwrote;underwritten;подписыва(ть)ся
+278;undo;undid;undone;уничтожать сделанное
+279;unfreeze;unfroze;unfrozen;размораживать
+280;unsay;unsaid;unsaid;брать назад свои слова
+281;unwind;unwound;unwound;развертывать
+282;uphold;upheld;upheld;поддерживать
+283;upset;upset;upset;опрокинуть(ся)
+284;wake;woke;woken;просыпаться
+285;waylay;waylaid;waylaid;подстерегать
+286;wear;wore;worn;носить(одежду)
+287;weave;wove;woven;ткать
+288;wed;wed;wed;выдавать замуж
+289;weep;wept;wept;плакать
+290;wet;wet;wet;мочить
+291;win;won;won;выиграть
+292;wind;wound;wound;заводить (механизм)
+293;withdraw;withdrew;withdrawn;взять назад
+294;withhold;withheld;withheld;удерживать
+295;withstand;withstood;withstood;противиться
+296;work;worked;worked;работать
+297;wring;wrung;wrung;скрутить
+298;write;wrote;written;писать
