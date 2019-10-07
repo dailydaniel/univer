@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="a56f4400-eac9-4288-a639-4b799f301d06" data-root-id="5027"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="5140">
+          {"9e85dd41-931e-416e-ba7f-8879a4d9a2c1":{"roots":{"references":[{"attributes":{},"id":"5036","type":"LinearScale"},{"attributes":{"callback":null,"end":120},"id":"5030","type":"Range1d"},{"attributes":{"callback":null,"end":90},"id":"5032","type":"Range1d"},{"attributes":{},"id":"5034","type":"LinearScale"},{"attributes":{"fill_color":{"field":"colors"},"line_color":{"value":"#1f77b4"},"radius":{"field":"rad","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"5064","type":"Circle"},{"attributes":{"formatter":{"id":"5072","type":"BasicTickFormatter"},"ticker":{"id":"5039","type":"BasicTicker"}},"id":"5038","type":"LinearAxis"},{"attributes":{"overlay":{"id":"5073","type":"BoxAnnotation"}},"id":"5050","type":"BoxZoomTool"},{"attributes":{"below":[{"id":"5038","type":"LinearAxis"}],"center":[{"id":"5042","type":"Grid"},{"id":"5047","type":"Grid"}],"left":[{"id":"5043","type":"LinearAxis"}],"plot_height":450,"renderers":[{"id":"5066","type":"GlyphRenderer"}],"title":{"id":"5028","type":"Title"},"toolbar":{"id":"5055","type":"Toolbar"},"x_range":{"id":"5030","type":"Range1d"},"x_scale":{"id":"5034","type":"LinearScale"},"y_range":{"id":"5032","type":"Range1d"},"y_scale":{"id":"5036","type":"LinearScale"}},"id":"5027","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"5026","type":"ColumnDataSource"}},"id":"5067","type":"CDSView"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"5048","type":"PanTool"},{"id":"5049","type":"WheelZoomTool"},{"id":"5050","type":"BoxZoomTool"},{"id":"5051","type":"SaveTool"},{"id":"5052","type":"ResetTool"},{"id":"5053","type":"HelpTool"},{"id":"5054","type":"HoverTool"}]},"id":"5055","type":"Toolbar"},{"attributes":{"formatter":{"id":"5070","type":"BasicTickFormatter"},"ticker":{"id":"5044","type":"BasicTicker"}},"id":"5043","type":"LinearAxis"},{"attributes":{"ticker":{"id":"5039","type":"BasicTicker"}},"id":"5042","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"field":"rad","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"5065","type":"Circle"},{"attributes":{"dimension":1,"ticker":{"id":"5044","type":"BasicTicker"}},"id":"5047","type":"Grid"},{"attributes":{},"id":"5053","type":"HelpTool"},{"attributes":{},"id":"5044","type":"BasicTicker"},{"attributes":{},"id":"5070","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"5026","type":"ColumnDataSource"},"glyph":{"id":"5064","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"5065","type":"Circle"},"selection_glyph":null,"view":{"id":"5067","type":"CDSView"}},"id":"5066","type":"GlyphRenderer"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"5073","type":"BoxAnnotation"},{"attributes":{"text":"xG France : Denmark"},"id":"5028","type":"Title"},{"attributes":{"callback":null,"tooltips":[["index","$index"],["player","@player"],["xg","@xg"],["sbxg","@sbxg"]]},"id":"5054","type":"HoverTool"},{"attributes":{"callback":null,"data":{"colors":["#3fc21c96","#4601a496","#3c024e96","#39821296","#3f217296","#39819096","#38e14a96","#41029496","#3f2be96"],"player":["Olivier Giroud","Rapha\u00ebl Varane","Ousmane Demb\u00e9l\u00e9","Antoine Griezmann","Christian Dannemann Eriksen","Thomas Lemar","Viktor Fischer","Henrik Dalsgaard","Nabil Fekir"],"rad":[0.957063,1.276102,0.9199400000000001,0.94512,1.04725,1.0047739999999998,1.014353,0.8899,1.00372],"sbxg":["0.03","0.04","0.03","0.02","0.04","0.03","0.02","0.02","0.02"],"x":[102.0,112.0,96.0,92.0,101.0,92.0,91.0,104.0,101.0],"xg":["0.1","0.13","0.09","0.09","0.1","0.1","0.1","0.09","0.1"],"y":[54.0,42.0,59.0,53.0,37.0,40.0,33.0,66.0,19.0]},"selected":{"id":"5074","type":"Selection"},"selection_policy":{"id":"5075","type":"UnionRenderers"}},"id":"5026","type":"ColumnDataSource"},{"attributes":{},"id":"5074","type":"Selection"},{"attributes":{},"id":"5072","type":"BasicTickFormatter"},{"attributes":{},"id":"5039","type":"BasicTicker"},{"attributes":{},"id":"5075","type":"UnionRenderers"},{"attributes":{},"id":"5049","type":"WheelZoomTool"},{"attributes":{},"id":"5051","type":"SaveTool"},{"attributes":{},"id":"5052","type":"ResetTool"},{"attributes":{},"id":"5048","type":"PanTool"}],"root_ids":["5027"]},"title":"Bokeh Application","version":"1.3.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('5140').textContent;
+                  var render_items = [{"docid":"9e85dd41-931e-416e-ba7f-8879a4d9a2c1","roots":{"5027":"a56f4400-eac9-4288-a639-4b799f301d06"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

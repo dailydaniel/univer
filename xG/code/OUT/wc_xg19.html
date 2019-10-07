@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="a7432ec4-dec7-4f04-a75c-3551fe66a9ca" data-root-id="3187"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="3300">
+          {"e17e4a38-fb34-4b89-a695-f416561f8097":{"roots":{"references":[{"attributes":{},"id":"3212","type":"ResetTool"},{"attributes":{"ticker":{"id":"3199","type":"BasicTicker"}},"id":"3202","type":"Grid"},{"attributes":{"dimension":1,"ticker":{"id":"3204","type":"BasicTicker"}},"id":"3207","type":"Grid"},{"attributes":{"callback":null,"data":{"colors":["#47417c96","#3ac1d696","#42e17296","#3ca1d696","#3c010e96","#46a1a496","#4561b896","#3ac10496","#44219a96","#43814096","#42415496","#474f096"],"player":["Thomas Delaney","Tom Rogi\u0107","Mathew Leckie","Christian Dannemann Eriksen","Pione Sisto Ifolo Emirmija","Nicolai J\u00f8rgensen","Robbie Kruse","Aaron Mooy","Mile Jedinak","Jens Stryger Larsen","Andreas Evald Cornelius","Daniel Arzani"],"rad":[1.272131,0.94808,1.037178,0.954106,1.026319,1.237042,0.993811,1.016918,1.012864,1.309424,1.569437,1.064279],"sbxg":["0.12","0.03","0.07","0.04","0.02","0.19","0.09","0.02","0.76","0.02","0.07","0.03"],"x":[114.0,94.0,107.0,97.0,96.0,113.0,111.0,94.0,109.0,108.0,106.0,114.0],"xg":["0.13","0.09","0.1","0.1","0.1","0.12","0.1","0.1","0.1","0.13","0.16","0.11"],"y":[38.0,47.0,37.0,47.0,27.0,42.0,44.0,26.0,41.0,32.0,34.0,24.0]},"selected":{"id":"3234","type":"Selection"},"selection_policy":{"id":"3235","type":"UnionRenderers"}},"id":"3186","type":"ColumnDataSource"},{"attributes":{"callback":null,"tooltips":[["index","$index"],["player","@player"],["xg","@xg"],["sbxg","@sbxg"]]},"id":"3214","type":"HoverTool"},{"attributes":{},"id":"3209","type":"WheelZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"field":"rad","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"3225","type":"Circle"},{"attributes":{"below":[{"id":"3198","type":"LinearAxis"}],"center":[{"id":"3202","type":"Grid"},{"id":"3207","type":"Grid"}],"left":[{"id":"3203","type":"LinearAxis"}],"plot_height":450,"renderers":[{"id":"3226","type":"GlyphRenderer"}],"title":{"id":"3188","type":"Title"},"toolbar":{"id":"3215","type":"Toolbar"},"x_range":{"id":"3190","type":"Range1d"},"x_scale":{"id":"3194","type":"LinearScale"},"y_range":{"id":"3192","type":"Range1d"},"y_scale":{"id":"3196","type":"LinearScale"}},"id":"3187","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"end":90},"id":"3192","type":"Range1d"},{"attributes":{},"id":"3208","type":"PanTool"},{"attributes":{},"id":"3232","type":"BasicTickFormatter"},{"attributes":{"overlay":{"id":"3233","type":"BoxAnnotation"}},"id":"3210","type":"BoxZoomTool"},{"attributes":{"text":"xG Australia : Denmark"},"id":"3188","type":"Title"},{"attributes":{},"id":"3213","type":"HelpTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3233","type":"BoxAnnotation"},{"attributes":{"formatter":{"id":"3232","type":"BasicTickFormatter"},"ticker":{"id":"3199","type":"BasicTicker"}},"id":"3198","type":"LinearAxis"},{"attributes":{"formatter":{"id":"3230","type":"BasicTickFormatter"},"ticker":{"id":"3204","type":"BasicTicker"}},"id":"3203","type":"LinearAxis"},{"attributes":{"data_source":{"id":"3186","type":"ColumnDataSource"},"glyph":{"id":"3224","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3225","type":"Circle"},"selection_glyph":null,"view":{"id":"3227","type":"CDSView"}},"id":"3226","type":"GlyphRenderer"},{"attributes":{},"id":"3234","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3208","type":"PanTool"},{"id":"3209","type":"WheelZoomTool"},{"id":"3210","type":"BoxZoomTool"},{"id":"3211","type":"SaveTool"},{"id":"3212","type":"ResetTool"},{"id":"3213","type":"HelpTool"},{"id":"3214","type":"HoverTool"}]},"id":"3215","type":"Toolbar"},{"attributes":{},"id":"3199","type":"BasicTicker"},{"attributes":{"callback":null,"end":120},"id":"3190","type":"Range1d"},{"attributes":{},"id":"3204","type":"BasicTicker"},{"attributes":{"source":{"id":"3186","type":"ColumnDataSource"}},"id":"3227","type":"CDSView"},{"attributes":{"fill_color":{"field":"colors"},"line_color":{"value":"#1f77b4"},"radius":{"field":"rad","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"3224","type":"Circle"},{"attributes":{},"id":"3194","type":"LinearScale"},{"attributes":{},"id":"3211","type":"SaveTool"},{"attributes":{},"id":"3235","type":"UnionRenderers"},{"attributes":{},"id":"3230","type":"BasicTickFormatter"},{"attributes":{},"id":"3196","type":"LinearScale"}],"root_ids":["3187"]},"title":"Bokeh Application","version":"1.3.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3300').textContent;
+                  var render_items = [{"docid":"e17e4a38-fb34-4b89-a695-f416561f8097","roots":{"3187":"a7432ec4-dec7-4f04-a75c-3551fe66a9ca"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
