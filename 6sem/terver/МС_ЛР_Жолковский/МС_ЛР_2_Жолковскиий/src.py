@@ -86,6 +86,9 @@ class LabFitter3000(object):
 
     def create_rvs(self):
         self.rvs = list(self.distribution.rvs(size=self.N))
+        if self.distribution_name == 'expon':
+            mr = min(self.rvs)
+            self.rvs = [x - mr for x in self.rvs]
 
     def create_first_counter(self):
         m = int(1 + log2(self.N))
